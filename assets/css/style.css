@@ -1,0 +1,395 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 31, 31);
+    text-align: center;
+}
+/*raiz das cores*/
+:root{
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+/*Estilização do header*/
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+/*Estilização das Categorias do header*/
+#categories{
+ padding-right: 10px;
+
+}
+/*Estilização da logo do header*/
+.logo{
+    height: 120px;
+}
+/*Estilização das ul utilizadas no header*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização das listas do nav do header*/
+nav li{
+    list-style: none;
+    font-size: 25px;
+
+    
+}
+/*Estilização do posicionamento dos items header*/
+ul li{
+    display: inline-block;
+    position: relative;
+}
+/*Estilização dos items redirecionaveis do header*/
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+/*Estilização da ul*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+   display: none;
+    border-radius: 10px;
+}
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown{
+    padding: 0;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li{
+    display: block;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Estilização do nav e items do  header*/
+ nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+   
+}
+/*Estilização da ação dos items header*/
+.navigation a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: 0.5s ease-in-out;
+}
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+/*Fim do Header*/
+/*Estilização do footer*/
+#footer {
+    width: 100%;
+    bottom: 0;
+    margin-bottom: -5px;
+}
+/*Para preenchimento*/
+#secimg {
+    background-color: black;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin: 1%;
+    border-left-style: solid;
+    border-left-color: transparent;
+
+}
+/*overlay da borda gradiente*/
+#secimg2 {
+    margin: 1px;
+    border-radius: 10px;
+    background-image:
+        linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+/*Div para posicionar o slider*/
+#felipe {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+/*Estilização dos titulos do site sem class ou id*/
+h1 {
+    margin: 2%;
+    color: white;
+
+}
+/*Estilização do título veja aqui*/
+#hp1 {
+    margin-top: 55px;
+    margin-bottom: 90px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: -1px 0 purple, 0 2px purple,
+        3px 0 purple, 0 -1px purple;
+
+}
+/*Estilização das manchetes nóticias*/
+.secp {
+    color: white;
+    margin-left: 2%;
+    display: flex;
+
+}
+/*Para preenchimento do mais visualizados*/
+#artimg2 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    width: 100%;
+    padding-bottom: 100px;
+}
+/*overlay da borda gradiente*/
+#artimgback {
+    border-radius: 10px;
+    margin: 3px;
+    margin-bottom: 0px;
+    width: 48%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+/*Para preenchimento do bombastico*/
+#artimg22 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    width: 100%;
+    padding-bottom: 100px;
+    margin-right: 1000px;
+}
+/*overlay da borda gradiente*/
+#artimgback2 {
+    border-radius: 10px;
+    margin: 3px;
+    margin-left: 2%;
+    margin-bottom: 0px;
+    width: 48%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+/*Estilização do tamanho e posicionamento das imagens do mais visualizados e bombastico*/
+.imgnot {
+    width: 185px;
+    height: 135px;
+    padding-right: 5px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+/*Estilização do tamanho das imagens do mais visualizados e bombastico quando se passa cursor sobre*/
+.imgnot:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+/*Estilização geral dos redirecionaveis*/
+a {
+    display: flex;
+    color: white;
+    margin: 2%;
+    text-decoration: none;
+
+}
+/*Estilização do posicionamento das imagens da seção veja mais*/
+.aimg {
+    margin: 0px;
+}
+/*Estilização das manchetes nóticias*/
+.secp{
+    text-align: justify;
+    margin: 1%;
+    font-size: 20px;
+}
+/*Estilização da cor das notícias quando se passa cursor sobre*/
+.secp:hover {
+    color:orchid;
+}
+/*Estilização dos direitos autorais das imagens*/
+span {
+    opacity: 0.8;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding-right: 62%;
+}
+/*Para preenchimento*/
+#artimg4 {
+    background-color: black;
+    border-radius: 10px;
+    margin: 1%;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: transparent;
+}
+/*overlay da borda gradiente*/
+#artimg6 {
+    width: 90%;
+    border-radius: 10px;
+    margin: 1%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+/*Div para ordenar overlays*/
+.display {
+    display: flex;
+}
+
+
+/*Div para ordenar os itens do Veja aqui*/
+.container002 {
+    display: flex;
+}
+/*overlay da borda gradiente*/
+#artimgback3 {
+    border-radius: 10px;
+    margin: 1px;
+    margin-left: 2%;
+    margin-bottom: 0px;
+    width: 94%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+/*Para preenchimento*/
+#artimg33 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    width: 100%;
+    padding-bottom: 100px;
+    margin-right: 1000px;
+}
+/*Estilização dos títulos da seção Veja aqui*/
+h2 {
+    color: white;
+    font-size: 30px;
+}
+/*Estilização do tamanho das imagens gerais do site*/
+img {
+    width: 150px;
+    height: 100px;
+    margin-left: 6%;
+}
+
+
+/* Estilização do tamanho e Imagens do slider */
+.carimg {
+    width: 900px;
+    height: 500px;
+    border-style: solid;
+    border-color: purple;
+    margin: auto;
+}
+
+/*Estilização do tamanho das imagens da seção Veja aqui*/
+.imgp {
+    width: 260px;
+    height: 180px;
+    margin-left: 1px;
+    border-radius: 9px;
+}
+/*Estilização do tamanho das imagens do veja aqui quando se passa cursor sobre*/
+.imgp:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+/*Estilização do tamanho das imagens da seção Veja aqui*/
+.imgpf{
+    width:260px;
+    height: 180px;
+    border-radius: 10px;
+}
+/*Estilização do tamanho das imagens dos filmes do veja aqui quando se passa cursor sobre*/
+.imgpf:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+/*Estilização da cor quando se passa o cursor sobre*/
+.p01:hover{
+    color: orchid;
+}
+/*título das matérias*/
+.p01{
+    text-align: left;
+    text-align: justify;
+    display: block;
+    font-size: 20px;
+}
+/*Class para esconder imagens que não estão em estande*/
+.carrossel{
+    margin: 0;
+    overflow: hidden;
+}
+/*Fluxo dos slides*/
+.carrossel>.slide_container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 400ms ease;
+}
+/*Fluxo dos slides*/
+.carrossel>.slide_container>.item_1 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+/*Fluxo dos slides*/
+.carrossel>input:nth-child(1):checked~.slide_container {
+    transform: translateX(0);
+}
+/*Fluxo dos slides*/
+.carrossel>input:nth-child(2):checked~.slide_container {
+    transform: translateX(-100%);
+}
+/*Fluxo dos slides*/
+.carrossel>input:nth-child(3):checked~.slide_container {
+    transform: translateX(-200%);
+}
+/*Fluxo dos slides*/
+.carrossel>input:nth-child(4):checked~.slide_container {
+    transform: translateX(-300%);
+}
+/*Fluxo dos slides*/
+.carrossel>input:nth-child(5):checked~.slide_container {
+    transform: translateX(-400%);
+}
+/*Fluxo dos slides*/
+.carrossel>input:nth-child(6):checked~.slide_container {
+    transform: translateX(-500%);
+}
+/*Input das bolinhas para slider*/
+input {
+    margin: 15px;
+    text-align: center;
+}

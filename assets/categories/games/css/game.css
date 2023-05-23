@@ -1,0 +1,296 @@
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    color: white;
+    background-image: url(../../../categories/games/images/imagem\ home\ game\ 2.jpg);
+    background-position: right bottom, left top;
+}
+
+#recomendados {
+    text-align: center;
+}
+
+.displayflex {
+    display: flex;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    margin-top: 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#secimg {
+    background-color: black;
+    border-radius: 10px;
+    margin: 1%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    text-align: center;
+}
+
+#secimg2 {
+    margin: 1px;
+    border-radius: 10px;
+    background-image:
+        linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+h1 {
+    margin: 2%;
+    color: white;
+    font-weight: bolde;
+}
+
+.secp {
+    color: white;
+    margin-left: 2%;
+    display: flex;
+}
+
+#artimg2 {
+    background-color: black;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 100%;
+}
+
+#artimgback {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+#artimg22 {
+    background-color: black;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 100%;
+}
+
+#artimgback22 {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+#carrossel {
+    text-align: center;
+}
+
+.imgnot {
+    width: 150px;
+    height: 150px;
+    padding-right: 5px;
+}
+
+a {
+    color: white;
+    margin: 2%;
+    text-decoration: none;
+}
+
+.a {
+    text-align: center;
+}
+
+.a2 {
+    display: flex;
+}
+
+span {
+    display: block;
+    opacity: 0.8;
+    margin-left: 2%;
+    font-size: 10px;
+    color: white;
+}
+
+#artimg33 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 100%;
+}
+
+#artimgback33 {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    padding-top: px;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+}
+
+.imgnot33 {
+    width: 150px;
+    height: 150px;
+    padding-right: 5px;
+}
+
+.secp33 {
+    color: white;
+    margin-left: 2%;
+    display: flex;
+}
+
+#footer {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+img {
+    border-radius: 7px;
+}
+
+#imgsec1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.imgnot:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.imgnot33:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+
+}
+
+/*raiz das cores*/
+:root {
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+
+/*Estilização do header*/
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+
+/*Estilização das Categorias do header*/
+#categories {
+    padding-right: 10px;
+
+}
+
+/*Estilização da logo do header*/
+.logo {
+    height: 120px;
+}
+
+/*Estilização das ul utilizadas no header*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização das listas do nav do header*/
+nav li {
+    list-style: none;
+    font-size: 25px;
+
+
+}
+
+/*Estilização do posicionamento dos items header*/
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/*Estilização dos items redirecionaveis do header*/
+ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Estilização da ul*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown {
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 10px;
+}
+
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown {
+    padding: 0;
+}
+
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li {
+    display: block;
+}
+
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/*Estilização do nav e items do  header*/
+nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+
+}
+
+/*Estilização da ação dos items header*/
+.navigation a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after {
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}

@@ -1,0 +1,286 @@
+
+/*criação de variaveis para a organização das cores*/
+:root{
+    --color-light-50:#f8fafc;
+
+    --color-dark-50:#797984;
+    --color-dark-100:#312d37;
+    --color-dark-900:#000;
+
+    --color-purple-50:#7c3aed;
+    --color-purple-100:#a855f7;
+    --color-purple-200:#bf46ef;
+
+    --color-gradient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    color: #f8fafc;
+    background: var(--color-gradient);
+}
+
+/*estilização do form*/
+form{
+    font-family: 'Lucida Sans';
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*estilização do container*/
+#container{
+    height:100%;
+    width: 100%;
+    /*backgrond:var para linkar o gradient color*/
+    background: var(--color-gradient);
+    display: flex;
+    /* para centralização de itens*/
+    align-items: center;
+    justify-content: center;
+}
+
+#login_form{
+    background-color: var(--color-dark-900);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 8px;
+    /*gap utilizado para igualar os espaçamentos */
+    gap: 30px;
+    box-shadow: 5px 5px 8px  rgba( 0, 0, 0,0.336) ;
+    margin-top: 150px;
+
+}
+
+#form_header{
+    display: flex;
+    align-items: center;
+    /*  justify content serve para o espaçamento ,fazendo com que um fique de um lado e o outro de outro*/
+    justify-content: space-between;
+}
+
+#form_header h1{
+    font-size: 30px;
+    /* position relative para fazer a criação da linha de baixo do h1*/
+
+}
+/*mudança da linha de baixo e tamanho*/
+#form_header h1::before{
+
+    content: '';
+    width: 40%;
+    background-color:var(--color-purple-50) ;
+    height: 2px;
+    bottom: 3px;
+    border-radius: 5px;
+}
+/*aumento dos icons*/
+#mode_icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+/* mudaças nos inputs*/
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/*sombra do input*/
+.input-box{
+    font-size: 14px;
+    color: #797984;
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-purple-50);
+}
+
+/*mudança do tamanho dos icons*/
+.input-field i{
+    font-size: 18px;
+    color: var(--color-dark-900);
+}
+ /* mudança do input para trazer a transparencia*/
+.input-field input{
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 15px;
+    padding: 0px 5px;
+    color: #f8fafc;
+}
+.input-field input:focus{
+    outline: none;
+}
+
+
+/*alteração no botão*/
+ .myButton {
+	background: var(--color-gradient);
+	background-color:#dfbdfa;
+	border-radius:9px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9639e3;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#footer{
+bottom: 0;
+margin-bottom: -5px;
+}
+
+
+form textarea {
+    padding: 5px 15px;/*  */
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+   border: transparent;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+    margin-right: 10%;
+    background-color: #312d37;
+    background-color: transparent;
+    color: white;
+}
+/*raiz das cores*/
+:root{
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+/*Estilização do header*/
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+/*Estilização das Categorias do header*/
+#categories{
+ padding-right: 10px;
+
+}
+/*Estilização da logo do header*/
+.logo{
+    height: 120px;
+}
+/*Estilização das ul utilizadas no header*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização das listas do nav do header*/
+nav li{
+    list-style: none;
+    font-size: 25px;
+
+   
+}
+/*Estilização do posicionamento dos items header*/
+ul li{
+    display: inline-block;
+ 
+}
+/*Estilização dos items redirecionaveis do header*/
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+/*Estilização da ul*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+   display: none;
+    border-radius: 10px;
+}
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown{
+    padding: 0;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li{
+    display: block;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Estilização do nav e items do  header*/
+ nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+   
+}
+/*Estilização da ação dos items header*/
+.navigation a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: 0.5s ease-in-out;
+}
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+
+
+footer iframe {
+    margin-bottom: -5px;
+ 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}

@@ -1,0 +1,50 @@
+#container{
+    display: flex;
+}
+#contato_feedback{
+    padding-left: 10%;
+    text-align: center;
+}
+body{
+    margin: 0;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+    #logo_conato_feedback{
+        padding: 0;
+    }
+    #instagram_linktree{
+        justify-content: space-between 60px;
+        padding-left: 50%;
+        display: flex;
+        padding-top: 1%;
+    }
+    #p_direitos{
+        padding-left: 10%;
+        padding-top: 10px;
+        color: white;
+        text-align: center;
+        margin: auto;
+    }
+    a{
+        text-decoration: none;
+        color:white
+    }
+    footer{
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        background-color: black;
+        height: 80px;
+    }
+#a2{
+    margin-left: 10px;
+}
+p{
+    color: white;
+}
+.ah:hover{
+    color: orchid;
+}

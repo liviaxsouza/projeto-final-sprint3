@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--link para logar contato.css-->
+    <link rel="stylesheet" href="./../assets/css/contato.css">
+    <!--link para logar font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <!--linkar com header-->
+    <header>
+        <!--Logo da Header-->
+        <img class="logo" src="../assets/images/Logo White.png" alt="Logo do site Mantis Blog">
+
+        <!--div para nav do header-->
+        <div class=" navigation">
+            <nav>
+
+
+                <!--Ul para listas desordenadas-->
+                <ul>
+
+                    <!--item para página inicial-->
+                    <li id="Home">
+                        <a href="./../index.html" target="_parent">
+                            Home
+                        </a>
+                    </li>
+                    <!--item das categorias-->
+
+                    <li id="categories">
+                        <a href="../pages/categories.html" target="_parent">Categorias</a>
+                        <!--Menu dropdown do item categorias-->
+                        <ul class="dropdown">
+                    </li>
+                    <!--item de rediricionamento para page de culinária-->
+                    <li><a href="./pages/culinaria.html" target="_parent">Culinária</a></li>
+                    <!--item de rediricionamento para page de esportes-->
+                    <li><a href="./pages/esportes.html" target="_parent">Esportes</a></li>
+                    <!--item de rediricionamento para page de filmes-->
+                    <li><a href="./pages/filme.html" target="_parent">Filmes</a></li>
+                    <!--item de rediricionamento para para page de games-->
+                    <li><a href="./pages/game.html" target="_parent">Games</a></li>
+                    <!--item de rediricionamento para page de música-->
+                    <li><a href="./pages/musica.html" target="_parent">Música</a></li>
+                      <!--item de rediricionamento para page de vestibular-->
+                    <li><a href="./pages/vestibular.html" target="_parent">Vestibular</a></li>
+                </ul>
+                <!--item do sobre nós-->
+                <li class="nos"><a href="../pages/sobrenos.html" target="_parent">
+                        Nós
+                    </a>
+                </li>
+
+
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- aberturta de container-->
+    <main id="container">
+        <form id="login_form" action="">
+            <!-- abertura de div para h1-->
+            <div id="form_header">
+                <h1>Entre em contato</h1>
+              
+
+            </div>
+            <!--abertura de div para nome-->
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="nome">
+                        nome
+                        <div class="input-field">
+                            <i id="mode_icon" class="fa-solid fa-user"></i>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                    </label>
+                </div>
+                <!--abertura de div para email-->
+                <div class="input-box">
+                    <label for="email">
+                        email
+                        <div class="input-field">
+                            <i id="mode_icon" class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </label>
+                </div>
+                <!--abertura de div para mensagem-->
+                <div class="input-box">
+                    <label for="mensagem">
+                        mensagem
+                        <div class="input-field">
+                            <i id="mode_icon" class="fa-solid fa-pen"></i>
+                            <input type="text" id="mensagem" name="mensagem" required>
+                        </div>
+                    </label>
+                </div>
+                <!-- input button-->
+                <a href="../pages/successcontato.html" class="myButton">enviar</a>
+        </form>
+        <!-- logar com footer-->
+        
+    </main>
+    <footer><iframe id="footerif" src="../layouts/footer.html" frameborder="0" scrolling="0" width="100%" height="100px"></iframe></footer>
+    
+    <script type="text/javascript" src="../assets/css/script.js"></script>
+</body>
+
+</html>

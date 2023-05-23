@@ -1,0 +1,387 @@
+/*estilização do body*/
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+}
+/*raiz das cores*/
+:root{
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+/*Estilização do header*/
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+/*Estilização das Categorias do header*/
+#categories{
+ padding-right: 10px;
+
+}
+/*Estilização da logo do header*/
+.logo{
+    height: 120px;
+}
+/*Estilização das ul utilizadas no header*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização das listas do nav do header*/
+nav li{
+    list-style: none;
+    font-size: 25px;
+
+    
+}
+/*Estilização do posicionamento dos items header*/
+ul li{
+    display: inline-block;
+    position: relative;
+}
+/*Estilização dos items redirecionaveis do header*/
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+/*Estilização da ul*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+   display: none;
+    border-radius: 10px;
+}
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown{
+    padding: 0;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li{
+    display: block;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Estilização do nav e items do  header*/
+ nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+   
+}
+/*Estilização da ação dos items header*/
+.navigation a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: 0.5s ease-in-out;
+}
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+
+
+/*estilização do título*/
+#title {
+    text-align: left;
+    font-size: 30px;
+    color: white;
+}
+
+/*estilização do texto referência do autor*/
+#pa01 {
+    margin-left: 30px;
+}
+
+/*estilização da section de fundo para efeito gradiente*/
+#secimg {
+    background-color: black;
+    gap: 40px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin: 1%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    border-left-width: 30px;
+    padding: 0;
+    height: 100%;
+}
+
+/*estilização da section de efeito gradiente*/
+#secimg2 {
+    margin: 1px;
+    border-radius: 10px;
+    background-image:
+        linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+        height: 100%;
+}
+
+/*estilização do título*/
+h1 {
+    margin: 2%;
+    color: white;
+
+}
+
+/*estilização section para texto*/
+.secp {
+    color: white;
+    margin-left: 2%;
+    display: flex;
+
+}
+
+/*estilização da section de fundo para efeito gradiente*/
+#artimg2 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    
+
+    height: 100%;
+
+}
+
+/*estilização da section de efeito gradiente*/
+#artimgback {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    padding-top: px;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+    height: 100%;
+}
+
+/*estilização da section de fundo para efeito gradiente*/
+#artimg22 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 500px;
+    height: 100%;
+}
+/*estilização da section de efeito gradiente*/
+#artimgback22 {
+
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    padding-top: px;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+    height: 100%;
+}
+/*estilização da imagem*/
+.imgnot {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+/*estilização da imagem*/
+.imgnot2 {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+/*estilização do link*/
+a {
+    display: flex;
+    color: white;
+    margin: 2%;
+    text-decoration: none;
+
+}
+/*estilização da tag de direitos autorais*/
+span {
+    display: block;
+    opacity: 0.8;
+    margin-left: 2%;
+    font-size: 10px;
+    color: white;
+}
+/*estilização da section de fundo para efeito gradiente*/
+#artimg33 {
+    background-color: black;
+    gap: 40px;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color: transparent;
+    height: 500px;
+    height: 100%;
+}
+/*estilização da section de efeito gradiente*/
+#artimgback33 {
+    margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    padding-top: px;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+    height: 100%;
+}
+/*estilização da imagem*/
+.imgnot33 {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+/*estilização da imagem*/
+.imgnot33 {
+    width: 150px;
+    height: 100px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+/*estilização section para texto*/
+.secp33 {
+    color: white;
+    margin-left: 2%;
+    display: flex;
+
+}
+/*estilização do footer*/
+#footer {
+    width: 100%;
+    margin-bottom: -5px;
+}
+/*estilização section para display*/
+#secsolo {
+    display: flex;
+    justify-content: center;
+}
+/*estilização div de margem*/
+#divborder {
+
+    margin-left: -10px;
+    margin: 7%;
+}
+/*estilização section para o espaço das refeições*/
+#ref01 {
+    margin-left: -5px   
+}
+/*estilização div de imagem*/
+#imgcake {
+
+    margin-top: 10px;
+}
+/*estilização div de alinhamento*/
+#a01 {
+    display: flex;
+    justify-content: center;
+}
+/*estilização div de imagem*/
+.imgesf {
+    width: 178px;
+    height: 110px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+/*estilização do texto das notícias*/
+#pa02:hover{
+    color: purple;
+}
+/*estilização do título*/
+#ha27{
+    padding-top:  -90px;
+    margin: 28px;
+}
+/*estilização do título*/
+#ha28{
+    margin-top: 4px;
+}
+#divborder01{
+
+    margin-left: -30px;
+    margin: 1%;
+}
+#divborder30{
+    margin-left: -10px;
+    margin: 2%;
+    padding-top: -22px;
+    
+}
+  /*estilização da parte dos depimentos*/
+  #divcomentarios {
+    width: 100%;
+  }
+  /*estilização do fundo e estruturação dos depoimentos*/
+  .sectioncomentarios {
+    background-color: black;
+    display: flex;
+    margin: 10px;
+  }
+  /*estilização da imagem dos depoimentos*/
+  .imgdepoimentos {
+    width: 70px;
+    margin: 10px;
+    border: 5px outset purple;
+    height: 70px;
+  }
+  /*estilização do texto dos depoimentos*/
+  .nomedepoimentos {
+    color: purple;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    
+  }
+  /*estilização da imagem das estrelas*/
+  #estrelaavaliacao {
+    width: 2%;
+    border: none;
+    margin: 5px;
+  }
+  /*estilização da parte de link do instagram*/
+  #nomeeinsta {
+    width: 100%;
+    
+  }
+  /*estilização da estrutura dos depoimentos*/
+  #divcomentarios {
+    align-items: center;
+  }
+  /*estilização da estrutura dos depoimentos*/
+  #div_bottom {
+    margin-bottom: 10px;
+  }
+  /*estilização do link do instagram*/
+  #insta01{
+    text-decoration: none;
+  }

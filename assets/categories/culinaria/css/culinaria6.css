@@ -1,0 +1,237 @@
+/*estilização de toda página*/
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+  }
+  /*raiz das cores*/
+:root{
+  --color-dark: #000000;
+  --color-grey: #3a3a3a;
+}
+/*Estilização do header*/
+header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  background-color: var(--color-dark);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  align-items: center;
+  box-shadow: 1px 1px 4px var(--color-grey);
+}
+/*Estilização das Categorias do header*/
+#categories{
+padding-right: 10px;
+
+}
+/*Estilização da logo do header*/
+.logo{
+  height: 120px;
+}
+/*Estilização das ul utilizadas no header*/
+ul{
+  margin: 0;
+  padding: 0;
+}
+/*Estilização das listas do nav do header*/
+nav .li{
+  list-style: none;
+  font-size: 25px;
+
+  
+}
+/*Estilização do posicionamento dos items header*/
+ul .li{
+  display: inline-block;
+  position: relative;
+}
+/*Estilização dos items redirecionaveis do header*/
+ul .li a{
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+/*Estilização da ul*/
+ul{
+  margin: 0;
+  padding: 0;
+}
+/*Estilização do menu dropdown do header*/
+ul .li ul.dropdown{
+  background-color: black;
+  position: absolute;
+  z-index: 999;
+ display: none;
+  border-radius: 10px;
+}
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown{
+  padding: 0;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul .li ul.dropdown .li{
+  display: block;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul .li:hover ul.dropdown{
+  display: block;
+}
+/*Estilização do nav e items do  header*/
+nav a{
+  color: white;
+  text-decoration: none;
+  position: relative;
+ 
+}
+/*Estilização da ação dos items header*/
+.navigation a::after{
+  content: " ";
+  width: 0%;
+  height: 4px;
+  background-image:
+   radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition: 0.5s ease-in-out;
+}
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after{
+  width: 100%;
+  border-radius: 10px;
+  background-image:
+   radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+  /*estilização do título principal*/
+  #ha1{
+    margin: 30px;
+  }
+  /*estilização do texto*/
+  #pa1{
+    margin-left: 30px;
+  }
+  /*estilização do segundo título*/
+  #ha2{
+    margin: 1%;
+  }
+  /*estilização do article*/
+  article{
+    box-shadow: 6px 6px 7px 3px #81259A, 5px 5px 10px 1px #000;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  /*estilização da imagem*/
+  #img01{
+    margin: 10px;
+    margin-left: 20%;
+    width: 60%;
+    height: 300px;
+  }
+  /*estilização do terceiro título*/
+  #ha3{
+    text-align: left;
+    margin-left: 10%;
+  }
+  /*estilização do texto*/
+  #pa02{
+    margin: 1%;
+  }
+  /*estilização das listas*/
+  .lia{
+    margin: 2%;
+    margin-left: 6%;
+  }
+  /*estilização da section de display*/
+  #sec01{
+    display: flex;
+  }
+  /*estilização da div de posicionamento*/
+  #div01{
+    margin-left: 5%;
+  }
+  /*estilização da div de posicionamento*/
+  #div02{
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+  /*estilização do menor título*/
+  #ha30{
+    text-align: center;
+  }
+  /*estilização da div de posicionamento*/
+  #div03{
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  /*estilização da section de posicionamento*/
+  #sec03{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  
+  }
+  /*estilização da div de posicionamento*/
+  #sec02{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  
+  }
+
+  
+  /*estilização do footer*/
+  #footer {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  /*estilização da parte dos depimentos*/
+#divcomentarios {
+  width: 100%;
+}
+/*estilização do fundo e estruturação dos depoimentos*/
+.sectioncomentarios {
+  background-color: black;
+  display: flex;
+  margin: 10px;
+}
+/*estilização da imagem dos depoimentos*/
+.imgdepoimentos {
+  width: 70px;
+  margin: 10px;
+  border: 5px outset purple;
+  height: 70px;
+}
+/*estilização do texto dos depoimentos*/
+.nomedepoimentos {
+  color: purple;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  
+}
+/*estilização da imagem das estrelas*/
+#estrelaavaliacao {
+  width: 2%;
+  border: none;
+  margin: 5px;
+}
+/*estilização da parte de link do instagram*/
+#nomeeinsta {
+  width: 100%;
+  
+}
+/*estilização da estrutura dos depoimentos*/
+#divcomentarios {
+  align-items: center;
+}
+/*estilização da estrutura dos depoimentos*/
+#div_bottom {
+  margin-bottom: 10px;
+}
+/*estilização do link do instagram*/
+#insta01{
+  text-decoration: none;
+}

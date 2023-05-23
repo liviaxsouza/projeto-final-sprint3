@@ -1,0 +1,189 @@
+body {
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+    background: var(--color-gradient);
+}
+
+:root {
+    --color-purple-50: #7c3aed;
+    --color-purple-100: #a855f7;
+    --color-purple-200: #bf46ef;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+}
+
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    padding-top: 5%;
+}
+
+#h2 {
+    color: white;
+}
+
+#submit1 {
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 9px #373737;
+    color: white;
+    background-color: #312d37;
+    margin-bottom: 10px;
+}
+
+#submit1:hover {
+    color: purple;
+    opacity: 10px;
+}
+
+#img1 {
+    margin: auto;
+}
+
+#section1 {
+    background: #312d37;
+    width: 30%;
+    display: flex;
+    margin: auto;
+    border-radius: 8px;
+    border-left-style: solid;
+    border-left-color: purple;
+    border-left-width: 10px;
+}
+
+/*raiz das cores*/
+:root {
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+
+/*Estilização do header*/
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+
+/*Estilização das Categorias do header*/
+#categories {
+    padding-right: 10px;
+
+}
+
+/*Estilização da logo do header*/
+.logo {
+    height: 120px;
+}
+
+/*Estilização das ul utilizadas no header*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização das listas do nav do header*/
+nav li {
+    list-style: none;
+    font-size: 25px;
+
+
+}
+
+/*Estilização do posicionamento dos items header*/
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/*Estilização dos items redirecionaveis do header*/
+ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Estilização da ul*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown {
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 10px;
+}
+
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown {
+    padding: 0;
+}
+
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li {
+    display: block;
+}
+
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/*Estilização do nav e items do  header*/
+nav a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+
+}
+
+/*Estilização da ação dos items header*/
+.navigation a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after {
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+
+footer iframe {
+    margin-bottom: -5px;
+ 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}

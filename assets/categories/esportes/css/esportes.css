@@ -1,0 +1,229 @@
+/*Estilização do corpo e estrutura inteira do site*/
+body{
+    background-color: rgb(27, 27, 27);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+}
+/*raiz das cores*/
+:root{
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+/*Estilização do header*/
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+/*Estilização das Categorias do header*/
+#categories{
+ padding-right: 10px;
+
+}
+/*Estilização da logo do header*/
+.logo{
+    height: 120px;
+}
+/*Estilização das ul utilizadas no header*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização das listas do nav do header*/
+nav li{
+    list-style: none;
+    font-size: 25px;
+
+    
+}
+/*Estilização do posicionamento dos items header*/
+ul li{
+    display: inline-block;
+    position: relative;
+}
+/*Estilização dos items redirecionaveis do header*/
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+/*Estilização da ul*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+   display: none;
+    border-radius: 10px;
+}
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown{
+    padding: 0;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li{
+    display: block;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Estilização do nav e items do  header*/
+ nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+   
+}
+/*Estilização da ação dos items header*/
+.navigation a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: 0.5s ease-in-out;
+}
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+/*Estilização do Título principal do site*/
+#title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+/*Estilização da seção de fotos com as bolas dos esportes*/
+#secimg{
+    background-color: black;
+    margin: auto;
+    border: 10px solid purple;
+    border-radius: 7px;
+    display: flex;
+   width: 40%;
+   padding: 0;
+}
+/*Estilização dos títulos das seções de redirecionamento*/
+   h1{
+    margin: 2%;
+    color: white;
+  
+   }
+   /*Estilização das matérias das primerias 2 seções (Basquete e Futebol) */
+.secp{
+    color: white;
+    margin-left: 2%;
+    display: flex;
+    font-size: 20px;
+}
+/*Article para texto e imagens das matérias que sobrepõe o overlay*/
+.artimg2{
+    background-color: black;
+    border-radius: 10px;
+    margin: 2%;
+    border-left-style: solid;
+    border-left-color:transparent;
+   height: 100%;
+ 
+ 
+  
+}
+/*Article overlay para bordas gradientes*/
+    .artimgback{
+        margin: auto;
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    padding-top: px;
+    background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
+    }
+    
+     /*Estilização do tamanho e posicionamento das imagens das notícias*/
+    .imgnot{
+        width:250px;
+        height: 150px;
+        padding-right: 5px;
+        border-radius: 10px;
+    }
+    /*Estilização do tamanho quando se passa o cursor o elemento*/
+    .imgnot:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    a{
+        display: flex;
+        color: white;
+        margin: 2%;
+        text-decoration: none;
+
+    }
+    /*Estilização da cor quando se passa o cursor sobre o elemento*/
+    .secp:hover{
+        color: orchid;
+    }
+    /*Estilização dos direitos autorais das imagens*/
+    span{
+        display: block;
+        opacity: 0.8;
+        margin-left: 2%;
+        font-size: 15px;
+        color: white;
+        margin-top: -10px;
+    }
+   
+           /*Estilização do tamanho e posicionamento das imagens das notícias*/
+       .imgnot33{
+           width:250px;
+           height: 150px;
+           padding-right: 5px;
+           border-radius: 10px;
+       }
+       /*Estilização do tamanho e transição quando se passa o cursor sobre o elemento*/
+       .imgnot33:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+    }
+    /*Estilização do tamanho e posicionamento dos paragrafos das matérias*/
+       .secp33{
+        color: white;
+        margin-left: 1%;
+        display: flex;
+        font-size: 20px;
+    }
+    /*Estilização da cor quando se passa o cursor sobre o elemento*/
+    .secp33:hover{
+        color: orchid;
+    }
+#footer{
+    width: 100%;
+    margin-bottom: -5px;
+}
+/*Estilização do tamanho e posicionamento das imagens das bolas de futebol*/
+.imgw{
+    width: 30%;
+}
+    /*Estilização do posicionamento das imagens clicaveís*/
+.aimg{
+    margin: 1%;
+    padding: 0;
+    display: flex;
+}

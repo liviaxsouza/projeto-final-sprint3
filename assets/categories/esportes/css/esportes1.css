@@ -1,0 +1,285 @@
+/*Estilização do corpo e estrutura inteira do site*/
+body {
+    background-color: rgb(7,7,7);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+}
+/*raiz das cores*/
+:root{
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+/*Estilização do header*/
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+/*Estilização das Categorias do header*/
+#categories{
+ padding-right: 10px;
+
+}
+/*Estilização da logo do header*/
+.logo{
+    height: 120px;
+}
+/*Estilização das ul utilizadas no header*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização das listas do nav do header*/
+nav li{
+    list-style: none;
+    font-size: 25px;
+
+    
+}
+/*Estilização do posicionamento dos items header*/
+ul li{
+    display: inline-block;
+    position: relative;
+}
+/*Estilização dos items redirecionaveis do header*/
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+/*Estilização da ul*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+   display: none;
+    border-radius: 10px;
+}
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown{
+    padding: 0;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li{
+    display: block;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Estilização do nav e items do  header*/
+ nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+   
+}
+/*Estilização da ação dos items header*/
+.navigation a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: 0.5s ease-in-out;
+}
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
+/*Estilização do autor da notícia*/
+p{
+    margin-left: 2%;
+    font-size: 20px;
+}
+/*Estilização do Título principal do site*/
+#title {
+    font-size: 50px;
+    color: white;
+    margin-left: 2%;
+    font-weight: bold;
+}
+/*Estilização do ícone do instagram do autor do texto*/
+#insta {
+    width: 40px;
+    height: 40px;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+/*Estilização do redirecionamento do instagram do autor do texto*/
+#a111 {
+    margin-left: 35%;
+}
+/*Estilização do rodapé do site*/
+#footer {
+    width: 100%;
+    margin-bottom: -5px;
+}
+/*Estilização do Tamanho e posicionamento da imagem referente a notícia*/
+#not1img {
+    margin-left: 5%;
+    width: 60%;
+    border-radius: 10px;
+}
+/*Estilização dos direitos autorais da imagem*/
+.spa {
+    margin-left: 25%;
+    color: rgb(166, 163, 163);
+}
+/*Estilização do tamanho e posicionamento dos paragráfos da matéria*/
+.notp {
+    margin-left: 2%;
+    margin-right: 35%;
+    font-size: 20px;
+    text-align: justify;
+}
+/*Estilização do subtítulo da matéria*/
+.titlemat{
+    padding-top: 4%;
+    margin-left: 2%;
+    font-size: 25px;
+}
+/*Estilização do posicionamento do aside*/
+.divaside {
+    width: 30%;
+    right: 0;
+    top: 20%;
+    position: absolute;
+
+}
+/*Estilização das imagens do aside*/
+.asimg {
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+}
+/*Estilização das imagens do aside*/
+.asimg1{
+    width: 190px;
+    height: 120px;
+    border-radius: 10px;
+}
+/*Estilização das imagens do aside quando se passa o cursor sobre os elementos*/
+.asimg1:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+   }
+/*Estilização das imagens do aside quando se passa o cursor sobre os elementos*/
+.asimg:hover {
+    transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+}
+/*Estilização das imagens do aside quando se passa o cursor sobre os elementos*/
+.asimg2:hover {
+    transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+}
+/*Estilização do tamanho da imagem 2 do aside*/
+.asimg2 {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+/*Div para display flex das imagens e textos do aside*/
+.flex {
+    display: flex;
+    margin-bottom: 5%;
+}
+/*Estilização dos títulos do aside*/
+.pa{
+    margin-left: 2%;
+    font-size: 20px;
+}
+/*Estilização das cores dos títulos do aside quando se passa o cursor sobre os elementos*/
+.pa:hover{
+    color: orchid;
+}
+/*display flex das imagens e textos do aside A*/
+.aaside{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+/*Estilização da largura e posicionamento do vídeo sobre a notícia*/
+.video{
+    margin-left: 2%;
+    width: 60%;
+}
+/*Comentários*/
+#divcomentarios {
+    width: 100%;
+}
+/*estilização da seção dos comentários*/
+.sectioncomentarios {
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    margin-top: 10px;
+}
+/*estilização da imagens dos comentários*/
+.imgdepoimentos {
+    width: 70px;
+    margin: 10px;
+    border: 5px outset purple;
+    height: 70px
+}
+/*estilização dos nomes dos comentários*/
+.nomedepoimentos {
+    color: purple;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*estilização das imagens das estrelas*/
+#estrelaavaliacao {
+    width: 2%;
+    border: none;
+    margin: 5px;
+}
+/*estilização da nome e instagram*/
+#nomeeinsta {
+    width: 100%;
+}
+/*estilização do posicionamento dos comentários*/
+#divcomentarios {
+    align-items: center;
+    margin-top: 50px;
+}
+/*estilização do espaçamento de cada comentário*/
+#div_bottom {
+    margin-bottom: 10px;
+}
+/*redirecionamento dos instagrams dos usuários que deram depimentos*/
+.instad{
+     margin: 0%;
+     padding: 0%;
+     text-decoration: none;
+}
+/*estilização dos comentários */
+.poi{
+    margin: 0;
+}
+/*para margin top*/
+.ftr{
+    padding-top: 10%;
+    margin: 0;
+   
+}

@@ -1,0 +1,250 @@
+body {
+    background-color: rgb(5, 5, 5);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    margin-top: 0;
+}
+.notp{
+    text-decoration: none;
+    color: white;
+}
+#title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-right: 30%;
+}
+
+#insta {
+    width: 40px;
+    height: 40px;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+#footer{
+    margin-bottom: -5px;
+}
+
+#a111 {
+    margin-left: 41%;
+}
+#footer {
+    width: 100%;
+}
+
+#not1img {
+    margin-left: 5%;
+    width: 60%;
+    border-radius: 10px;
+}
+#ps0{
+    margin-left: 3%;
+}
+.spa {
+    margin-left: 28%;
+    color: rgb(166, 163, 163);
+}
+#h22{
+    margin-left: 3%;
+    text-decoration: none;
+    color: white;
+    margin-top: 7%;
+}
+.notp {
+    margin-left: 2%;
+    margin-right: 32%;
+    font-size: 20px;
+}
+#estrelaavaliacao{
+    height: 2%;
+    width: 2%;
+    margin-left: 2%;
+}
+#nomeeinsta{
+    display: flex;
+}
+.imgdepoimentos{
+    border-radius: 100%;
+    height: 5%;
+    width: 5%;
+}
+.imgdepoimentos1{
+    margin-top: 8%;
+    border-radius: 100%;
+    height: 5%;
+    width: 5%;
+}
+.titlem {
+    margin-left: 22px;
+}
+.titlemat{
+    padding-top: 4%;
+}
+
+.divaside {
+    width: 30%;
+    height: 1900px;
+    background-color: rgb(0, 0, 0);
+    right: 0;
+    top: 159px;
+    position: absolute;
+}
+#imgg{
+    height: 50%;
+    width: 50%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.asimg {
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+}
+.asimg1{
+    width: 190px;
+    height: 120px;
+    border-radius: 10px;
+}
+.asimg1:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+   }
+
+.asimg:hover {
+    transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+}
+.asimg2:hover {
+    transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+}
+.asimg2 {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.pa{
+    margin-left: 10px;
+}
+.pa:hover{
+    color: blueviolet;
+}
+.aaside{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+/*raiz das cores*/
+:root{
+    --color-dark: #000000;
+    --color-grey: #3a3a3a;
+}
+/*Estilização do header*/
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: var(--color-dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+    box-shadow: 1px 1px 4px var(--color-grey);
+}
+/*Estilização das Categorias do header*/
+#categories{
+ padding-right: 10px;
+
+}
+/*Estilização da logo do header*/
+.logo{
+    height: 120px;
+}
+/*Estilização das ul utilizadas no header*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização das listas do nav do header*/
+nav li{
+    list-style: none;
+    font-size: 25px;
+
+   
+}
+/*Estilização do posicionamento dos items header*/
+ul li{
+    display: inline-block;
+    position: relative;
+}
+/*Estilização dos items redirecionaveis do header*/
+ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+/*Estilização da ul*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown{
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+   display: none;
+    border-radius: 10px;
+}
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown{
+    padding: 0;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li{
+    display: block;
+}
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Estilização do nav e items do  header*/
+ nav a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+   
+}
+.titlem{
+    margin-top: 3%;
+}
+/*Estilização da ação dos items header*/
+.navigation a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     transition: 0.5s ease-in-out;
+}
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
