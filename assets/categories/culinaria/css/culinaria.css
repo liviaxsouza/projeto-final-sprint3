@@ -385,3 +385,27 @@ span {
   #insta01{
     text-decoration: none;
   }
+  /*responsividade*/
+  @media (max-device-width: 900px) and (min-device-height: 400px) {
+    header{
+        width: 1000px;
+    }
+    body{
+        margin: 0%;
+    }
+    #secimg2{
+        width: 550px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    #ha28{
+        margin-left: 25px;
+    }
+    #ref01{
+        margin-left: -5px;
+        width: 130px;
+    }
+    #footer{
+        width: 1100px;
+    }
+  }
