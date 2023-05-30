@@ -235,3 +235,8 @@ article{
 #insta01{
   text-decoration: none;
 }
+@media screen and (max-device-width: 900px) and (min-device-heigth: 400px){
+  #estrelaavaliacao{
+    width: 100px;
+  }
+}
