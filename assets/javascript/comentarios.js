@@ -1,8 +1,8 @@
 function art() {
     
-let titulo = document.getElementById("titulo").value;
-let resumo = document.getElementById("resumo").value;
-let categorias = document.getElementById("categorias").value;
-let autor = document.getElementById("autor").value;
-let data = document.getElementById("data").value;
+ titulo = document.getElementById("titulo").value;
+ resumo = document.getElementById("resumo").value;
+ categorias = document.getElementById("categorias").value;
+ autor = document.getElementById("autor").value;
+ data = document.getElementById("data").value;
 }
