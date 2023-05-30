@@ -1,17 +1,11 @@
-/*Estilização do corpo e estrutura inteira do site*/
-body{
-    background-color:  rgb(33, 31, 31);
-    font-family: 'Montserrat', sans-serif;
-    margin: 0%;
-    color: white;
-    font-size: 30px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
-/*raiz das cores*/
-:root{
-    --color-dark: #000000;
-    --color-grey: #3a3a3a;
-}
+
 /*Estilização do header*/
+
+
 header{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -106,71 +100,20 @@ ul li:hover ul.dropdown{
     background-image:
      radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
 }
-/*Estilização do Título principal do site*/
-#title{
-    text-align: center;
-    font-size: 35px;
+
+
+h1 {
     color: white;
 }
-/*Estilização do Footer*/
-#footer{
-    width: 100%;
-    margin-bottom: -5px;
-    bottom: 0;
-}
-/*Estilização dos A href da page*/
-.as{
-    text-decoration: none;
+
+h2 {
     color: white;
 }
-/*Estilização da section tais como posicionamento cor e tamanho*/
-.cards{
-    background-color: #000000;
-    display: flex;
-    border-radius: 15px;
-    margin-top: 15px;
-    width: 500px;
-}
-/*Estilização da section tais como cor e tamanho ao passar o cursor sobre*/
-.cards:hover{
-    transform: scale(1.1);
-    transition: transform 0.5s ease-in;
-    transition: transform 0.5s ease-out;
-    color: orchid;
 
-}
-/*Estilização das imagens dentro dos cards tais como posicionamento cor da borda e tamanho*/
-.imgc{
-    width: 180px;
-    height: 160px;
-    border-radius: 10px;
-    border-right-style: solid;
-    border-right-color: purple;
-    border-right-width: 5px;
-    margin-right: 20%;
-}
-/*Estilização do display dos cards*/
-.articles{
-    display: flex;
-    justify-content: center;
-
-}
-/*Estilização do displays e posicionamento dos cards lado esquerdo*/
-.art1{
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
-}
-/*Estilização do displays e posicionamento dos cards lado direito */
-.art2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-/*Estilização do posicionamento dos tíitulos da categoria*/
-.titles{
-    padding-right: 5px;
+p {
+    color: white;
 }
 
-@media screen and (max-device-width: 900px) and (min-device-height:400px) {
+label {
+    color: white;
 }
