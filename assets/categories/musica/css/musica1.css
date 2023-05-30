@@ -288,3 +288,9 @@ ul li:hover ul.dropdown{
     margin-bottom: -5px;
     width: 100%;
 }
+
+@media screen and (max-device-width: 900px) and (min-device-height:400px) {
+#divaside{
+    
+}
+}
