@@ -238,14 +238,7 @@ ul li:hover ul.dropdown{
 
 @media screen and (max-device-width: 900px) and (min-device-height:400px) {
     section {
-        margin-top: 60%;
-        margin-bottom: 70%;
-        width: 120%;
-        margin-left: -10%;
-        padding-left: -10%;
-    }
-
-    #footer {
-        margin: 0;
+        width: 50%;
+        height: 2%;
     }
 }

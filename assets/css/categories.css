@@ -171,3 +171,6 @@ ul li:hover ul.dropdown{
 .titles{
     padding-right: 5px;
 }
+
+@media screen and (max-device-width: 900px) and (min-device-height:400px) {
+}

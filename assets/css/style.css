@@ -397,36 +397,4 @@ input {
 
 @media screen and (max-device-width: 900px) and (min-device-height:400px) {
 
-/*Veja aqui*/ 
-    .imgp {
-        width: 140px;
-        height: 100px;
-    }
-
-    .imgpf{
-        width: 140px;
-        height: 100px;
-    }
-
-/*Mais visualizados e Bombástico*/ 
-
-    #artimgback {
-        margin-top: 5%;
-        width: 43%;
-        height: 20%;
-        margin-left: 2%;
-        margin-right: 5%;
-    }
-
-    #artimgback2 {
-        margin-top: 5%;
-        width: 43%;
-        height: 20%;
-    }
-
-/*Carrossel*/ 
-    #felipe {
-        margin-top: 5%;
-    }
-
 } 
