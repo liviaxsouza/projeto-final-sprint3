@@ -42,21 +42,14 @@ ul{
     background-image:
      radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
     margin: 0;
-    bottom: ;
    
 
 }
-#home{
 
-}
 #categories{
 margin: 0;
 padding: 0;
 }
-#sobrenos{
-
-}
-
 
 .btn_icon_header{
     display: none;
@@ -64,3 +57,4 @@ padding: 0;
     border: none;
     color: whitesmoke;
 }
+
