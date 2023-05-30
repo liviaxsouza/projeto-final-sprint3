@@ -481,21 +481,30 @@ input {
 }
 
 .imgp {
-    width: 5px;
-    height: 5px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
 }
 
+
 .imgpf {
-    width: 5px;
-    height: 5px;
+    width: 90px;
+    height: 90px;
+    margin: 15px;
+}
+
+.carimg {
+    width: 80%;
+    height: 100%;
 }
 
     #artimg33 {
-        height: 45px;
+        height: 90px;
     }
 
     #artimgback3 {
         height: 5%;
+        margin-left: 5%;
     }
 
     a {
@@ -503,10 +512,13 @@ input {
         margin: 0;
     }
 
+    #felipe {
+        margin-right: 20px;
+    }
+
     #secimg {
         margin-top: 10%;
         width: 120%;
         height: 220px;
-        margin-right: 250px;
     }
 } 
