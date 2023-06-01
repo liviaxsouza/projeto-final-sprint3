@@ -16,7 +16,9 @@ body {
     color: white;
 }
 #footer{
+    width: 100%;
     margin-bottom: -5px;
+    bottom: 0;
 }
 #secimg {
     background-color: black;
@@ -186,6 +188,8 @@ span {
 
 #footer {
     width: 100%;
+    margin-bottom: -5px;
+    bottom: 0;
 }
 .container01{
     display: flex;
@@ -301,7 +305,7 @@ ul li:hover ul.dropdown{
 }
 
 
-@media (max-device-width: 900px) and (min-device-height:400px) {
+@media (max-device-width: 900px) {
     #fotosc{
         width: 880px;
         margin-left: 50px;
@@ -309,19 +313,16 @@ ul li:hover ul.dropdown{
     #temas{
       font-size:xx-large;
     }
-   
-    #header {
-        width: 600px;
-        margin-top: 0;
-        display: flex;
+    #header{
+        height: 100px;
+        width: 400px;
+      
     }
+   
 
     #artimgback{
         margin-left: 20px;
-        margin-right: 400px;
-        width: 850px;
-        
-        
+        width: 850px;  
         
     }
     #artimgback22{
@@ -350,7 +351,7 @@ ul li:hover ul.dropdown{
         
     }
     #secimg2{
-        width: 800px;
+        width: 850px;
         margin-left: -30px;
        
        
@@ -361,8 +362,12 @@ ul li:hover ul.dropdown{
     #secimg{
         width: -5px;
     }
-    
-    
-    
+
+    #carrossel{
+        width: 100px;
+    }
+    #fotosc{
+        width: 300px;
+    }
     
 }
