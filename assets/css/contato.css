@@ -44,6 +44,8 @@ form{
     /* para centralização de itens*/
     align-items: center;
     justify-content: center;
+    margin-bottom: 90px;
+    padding-bottom: -10px;
 }
 
 #login_form{
@@ -56,7 +58,6 @@ form{
     gap: 30px;
     box-shadow: 5px 5px 8px  rgba( 0, 0, 0,0.336) ;
     margin-top: 150px;
-
 }
 
 #form_header{
@@ -64,6 +65,9 @@ form{
     align-items: center;
     /*  justify content serve para o espaçamento ,fazendo com que um fique de um lado e o outro de outro*/
     justify-content: space-between;
+    padding-bottom: 50px;
+    
+    
 }
 
 #form_header h1{
@@ -283,4 +287,10 @@ footer {
     bottom: 0;
     width: 100%;
 
+}
+
+#bot {
+    color: gray;
+    background-color: #000;
+    
 }

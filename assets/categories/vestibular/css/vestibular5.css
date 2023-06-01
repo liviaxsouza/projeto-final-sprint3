@@ -302,3 +302,7 @@ ul li:hover ul.dropdown{
                 transition: transform 0.5s ease-in-out;
         }
 
+        .txtvest{
+            text-decoration: none;
+        }
+
