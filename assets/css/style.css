@@ -451,8 +451,18 @@ input {
     }
 
    .imgnot {
-    width: 45%;
-    height: 10%;
+    width: 25%;
+    height: 5%;
+}
+
+.secp {
+    font-size: 70%;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+.legenda {
+    font-size: 70%;
 }
 
 #imgnot2 {
