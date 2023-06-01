@@ -3,45 +3,88 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="./../layouts/footer.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Footer</title>
+    <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
-    <footer>
-
-
-        <article>
-            <div id="container">
-                <div id="logo_contato_feedback">
-                    <img src="./../assets/images/logo White.png" alt="logo mantis" width="60px">
-                </div>
-                <div id="contato_feedback">
-                    <a href="./../pages/contato.html" target="_parent">
-                        <p class="ah">Contato</p>
-                    </a>
-                    <a href="./../pages/feedback.html" target="_parent">
-                        <p class="ah">Feedback</p>
-                    </a>
-                </div>
-                <div id="p_direitos">
-                    <p>Todos os direitos reservados © 2023</p>
-                </div>
-                <div id="instagram_linktree">
-                    <a href="https://www.instagram.com/equipecodethree/" target="_blank">
-                        <img src="./../assets/images/logo_instagram.png" width="25px">
-                    </a>
-                    <a id="a2" href="https://linktr.ee/codethree"
-                        target="_blank">
-                        <img src="./../assets/images/linktree-logo-icon.png" width="20px">
-                    </a>
-                </div>
-            </div>
-        </article>
+    <footer class="main_footer container">
+      
+        <div class="content">
+            <div class="colfooter">
+                
+                <div class="titleFooter"> <span class="icon icon-world"></span> Menu</div>
+                <ul>
+                
+                  <li><a href="#" title="Página Inícial">Página Inícial</a></li>
+                  <li><a href="#" title="Html5">Html5</a></li>
+                  <li><a href="#" title="Css3">Css3</a></li>
+                  <li><a href="#" title="jQuery">jQuery</a></li>
+                  <li><a href="#" title="WordPress">WordPress</a></li>
+                  <li><a href="#" title="Fale Conosco">Fale Conosco</a></li>
+                
+                </ul>
+            </div><!--Col Footer 1-->        
+            <div class="colfooter">
+               
+              <div class="titleFooter"> <span class="icon icon-share-outline"></span> Redes Sociais</div>  
+              <a href="#" class="redesocial"><span> <i class="icon icon-facebook"></i> /loopnerd</span></a>            
+              <a href="#" class="redesocial"><span> <i class="icon icon-instagram"></i> /blog.loopnerd</span></a>            
+              <a href="#" class="redesocial"><span> <i class="icon icon-twitter"></i> /LoopNerd</span></a>            
+              <a href="#" class="redesocial"><span> <i class="icon icon-pinterest"></i> /loopnerd</span></a>            
+            </div><!--Col Footer 2-->
+            <div class="colfooter">
+               
+              <div class="titleFooter"> <span class="icon icon-bubble-2"></span> Atendimentos</div>
+              <p><i class="icon icon-mail"></i> contato@seusite.com.br</p>
+              <p><i class="icon icon-phone"></i> 21 90000-0000</p>
+              <p><i class="icon icon-whatsapp"></i> 21 90000-0000</p>
+            </div><!--Col Footer 3-->
+            <div class="colfooter">
+               
+              <div class="titleFooter"> <span class="icon icon-mail-3"></span> Contato</div>  
+              
+                <form class="my-formulario" action="#" method="post">
+                        
+                     <label class="label">
+                                      
+                           <input class="effect-line" type="text" placeholder="Seu nome" autocomplete="off">
+                           <span class="focus-border"></span>
+                                  
+                     </label>
+                      <label class="label">
+                                      
+                           <input class="effect-line" type="text" placeholder="Seu e-mail" autocomplete="off">
+                           <span class="focus-border"></span>
+                                  
+                      </label>
+                      <label class="label">
+                                      
+                           <input class="effect-line" type="text" placeholder="Seu assunto" autocomplete="off">
+                           <span class="focus-border"></span>
+                                  
+                      </label>
+                      <label class="label">
+                                      
+                          <textarea class="effect-line" name="mensagem" placeholder="Deixe sua mensagem" rows="2" autocomplete="off"></textarea>
+                          <span class="focus-border"></span>
+                                  
+                      </label>
+                      <input type="hidden" name="acao" value="enviar">
+                      <button class="btn-enviar" title="Enviar">Enviar</button>
+                </form>
+            </div><!--Col Footer 4-->
+            <div class="clear"></div>
+        
+        </div><!--Contant-->
+        <div class="main_footer_copy">
+            
+            <p class="m-b-footer"> Seusite - 2021, todos os direitos reservados.</p> 
+            <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: <a href="#" title="Seu nome">Seu nome aqui</a></p>
+        
+        </div>
     </footer>
+
 </body>
 
 </html>
