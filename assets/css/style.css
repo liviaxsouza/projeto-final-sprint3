@@ -440,12 +440,14 @@ input {
     
     #artimgback {
         width: 88%;
+        height: 600px;
         margin-top: 5%;
         margin-left: 5%;
     }
 
     #artimgback2 {
         width: 88%;
+        height: 600px;
         margin-top: 5%;
         margin-left: 5%;
     }
@@ -463,21 +465,35 @@ input {
 
 .legenda {
     font-size: 70%;
+    margin-bottom: 55%;
+}
+
+.titulos {
+    padding: 5%;
 }
 
 #imgnot2 {
-    width: 35%;
+    width: 20%;
     height: 5%;
+    border-radius: 5px;
 }
 
 #artimg33 {
     width: 98%;
-    height: 20%;
+    height: 10%;
+}
+
+#artimg2 {
+    height: 500px;
+}
+
+#artimg22 {
+    height: 500px;
 }
 
 #artimgback3 {
     width: 90%;
-    height: 20%;
+    height: 10%;
 }
 
 .none {
@@ -495,7 +511,6 @@ input {
     height: 90px;
     margin: 5px;
 }
-
 
 .imgpf {
     width: 90px;
