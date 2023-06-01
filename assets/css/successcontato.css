@@ -1,15 +1,15 @@
 body {
     text-align: center;
     margin: auto;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     font-family: arial;
     background: var(--color-gradient);
 }
 
 :root {
-    --color-purple-50: #7c3aed;
-    --color-purple-100: #a855f7;
-    --color-purple-200: #bf46ef;
+    --color-purple-50:var(--color-dark);
+    --color-purple-100:var(--color-dark);
+    --color-purple-200:var(--color-dark);
     --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
 }
 
@@ -199,11 +199,11 @@ footer {
 @media screen and (max-device-width: 900px) and (min-device-height:400px) {
     header {
         height: 100px;
-        width: 500px;
+        width: 365px;
     }
+    
     .logo {
-        
-            width: 100px;
+            width: 95px;
             height: 65px;
             padding: 0;
             margin: 0;
@@ -219,5 +219,14 @@ footer {
     box-shadow: 5px 5px 8px  rgba( 0, 0, 0,0.336) ;
     margin-top: 150px;
     margin-left: 500px;
+}
+#Home {
+    font-size: 100%;
+}
+#categories{
+    font-size: 100%;
+}
+#nos{
+    font-size: 100%;
 }
 }
