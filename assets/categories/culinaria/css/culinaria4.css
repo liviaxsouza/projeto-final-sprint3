@@ -234,3 +234,11 @@ nav a{
 #insta01{
   text-decoration: none;
 }
+@media (max-device-width: 900px){
+  header{
+    width: 500px;
+  }
+  #footer{
+    width: 500px;
+  }
+}

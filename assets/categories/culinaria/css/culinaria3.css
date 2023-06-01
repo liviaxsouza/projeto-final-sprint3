@@ -234,3 +234,9 @@ nav a{
 #insta01{
   text-decoration: none;
 }
+@media screen and (max-devide-width: 915px) and (min-device-height: 412px){
+  header {
+    height: 70px;
+    
+}
+}
