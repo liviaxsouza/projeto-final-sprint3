@@ -51,13 +51,14 @@ form {
 }
 
 #section1 {
-    background: #312d37;
-    width: 30%;
+    background: #000000;
+    width: 300px;
+    height: 600px;
     display: flex;
     margin: auto;
     border-radius: 8px;
     border-left-style: solid;
-    border-left-color: purple;
+    border-left-color:#6a00e1;
     border-left-width: 10px;
 
 
@@ -70,7 +71,7 @@ p {
 /*raiz das cores*/
 :root {
     --color-dark: #000000;
-    --color-grey: #3a3a3a;
+    --color-grey:#000000;
 }
 
 /*Estilização do header*/
@@ -193,4 +194,30 @@ footer {
     bottom: 0;
     width: 100%;
 
+}
+
+@media screen and (max-device-width: 900px) and (min-device-height:400px) {
+    header {
+        height: 100px;
+        width: 500px;
+    }
+    .logo {
+        
+            width: 100px;
+            height: 65px;
+            padding: 0;
+            margin: 0;
+        }
+        #login_form{
+    background-color: var(--color-dark-900);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 8px;
+    /*gap utilizado para igualar os espaçamentos */
+    gap: 30px;
+    box-shadow: 5px 5px 8px  rgba( 0, 0, 0,0.336) ;
+    margin-top: 150px;
+    margin-left: 500px;
+}
 }
