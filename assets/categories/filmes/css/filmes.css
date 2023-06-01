@@ -315,21 +315,12 @@ ul li:hover ul.dropdown{
     }
     #header{
         height: 100px;
-        width: 500px;
+        width: 400px;
+      
     }
-     .logo{
-        width: 100px;
-        height: 65px;
-        padding: 0;
-        margin: 0;
-
-    }
+     
    
-    #footer{
-        width: 898px;
-        height: -10;
-       
-    }
+   
    
 
     #artimgback{
