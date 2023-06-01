@@ -109,7 +109,8 @@ ul li:hover ul.dropdown{
 /*Estilização do Título principal do site*/
 #title{
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+    margin-top: 40px;
     color: white;
 }
 /*Estilização do Footer*/
@@ -170,4 +171,20 @@ ul li:hover ul.dropdown{
 /*Estilização do posicionamento dos tíitulos da categoria*/
 .titles{
     padding-right: 5px;
+}
+
+@media screen and (max-device-width: 900px) {
+.articles {
+    flex-direction: column;
+    align-items: center;
+}
+
+.art1, .art2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.cards {
+    margin-top: 90px;
 }
