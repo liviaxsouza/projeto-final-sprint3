@@ -244,3 +244,14 @@ ul li:hover ul.dropdown{
     background-image:
      radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
 }
+
+
+@media (max-device-width: 900px) {
+    #footer{
+        width: 570px;
+        height: 1250px;
+    }
+    #_header{
+        width:120% ;
+    }
+}
