@@ -6,4 +6,3 @@ function art() {
  autor = document.getElementById("autor").value;
  data = document.getElementById("data").value;
 }
-

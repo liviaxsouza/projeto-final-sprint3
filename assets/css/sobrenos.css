@@ -241,4 +241,36 @@ ul li:hover ul.dropdown{
         width: 50%;
         height: 2%;
     }
+
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        width: 19%;
+        height: 90%;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    #home {
+        font-size: 90%;
+    }
+
+    #categorias {
+        font-size: 90%;
+    }
+
+    #nos {
+        font-size: 90%;
+    }
 }
