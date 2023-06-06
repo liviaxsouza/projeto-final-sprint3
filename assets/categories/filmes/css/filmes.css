@@ -19,6 +19,7 @@ body {
     width: 100%;
     margin-bottom: -5px;
     bottom: 0;
+    height: 600px;
 }
 #secimg {
     background-color: black;
