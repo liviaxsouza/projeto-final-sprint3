@@ -183,6 +183,7 @@ article{
 
 /*estilização do footer*/
 #footer {
+  height: 600px;
   width: 100%;
   bottom: 0;
   margin-bottom: -5px;
