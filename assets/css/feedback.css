@@ -1,16 +1,19 @@
 
 /*criação de variaveis para a organização das cores*/
-:root {
-    --color-light-50: #f8fafc;
-    --color-dark-50: #797984;
-    --color-dark-100: #312d37;
-    --color-dark-900: #000;
-    --color-purple-50: #7c3aed;
-    --color-purple-100: #a855f7;
-    --color-purple-200: #xxx; /* Substitua 'xxx' pela cor desejada */
-    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
-  }
-  
+:root{
+    --color-light-50:#f8fafc;
+
+    --color-dark-50:#797984;
+    --color-dark-100:#312d37;
+    --color-dark-900:#000;
+
+    --color-purple-50:#7c3aed;
+    --color-purple-100:#a855f7;
+    --color-purple-200:#bf46ef;
+
+    --color-gradient:linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+
+}
 
 * {
     margin: 0;
@@ -52,8 +55,9 @@ form{
     /*gap utilizado para igualar os espaçamentos */
     gap: 30px;
     box-shadow: 5px 5px 8px  rgba( 0, 0, 0,0.336) ;
-    margin-top: 10px;
+    margin-top: 160px;
     height: 2%;
+
 }
 
 #form_header{
@@ -152,7 +156,6 @@ form{
 #footer{
 bottom: 0;
 margin-bottom: -5px;
-
 }
 
 
@@ -282,18 +285,3 @@ footer {
     width: 100%;
 
 }
-@media screen and (max-device-width: 900px) and (min-device-height:400px) {
-    header {
-        height: 100px;
-        width: 500px;
-    }
-    .logo {
-        
-            width: 100px;
-            height: 65px;
-            padding: 0;
-            margin: 0;
-        }
-    }
-
-    
