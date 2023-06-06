@@ -126,6 +126,7 @@ input[type="text"],textarea{
 @media (min-width:60em){
 .colfooter  { width:22%; margin-right:4%; margin-bottom:0; }
 .colfooter:nth-of-type(4n+0){ margin-right:0; border-right:0;}
+
 }
 
 
