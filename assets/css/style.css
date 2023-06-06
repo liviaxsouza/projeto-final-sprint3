@@ -7,13 +7,15 @@ body {
     background-color: rgb(33, 31, 31);
     text-align: center;
 }
+
 /*raiz das cores*/
-:root{
+:root {
     --color-dark: #000000;
     --color-grey: #3a3a3a;
 }
+
 /*Estilização do header*/
-header{
+header {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     background-color: var(--color-dark);
@@ -23,90 +25,105 @@ header{
     align-items: center;
     box-shadow: 1px 1px 4px var(--color-grey);
 }
+
 /*Estilização das Categorias do header*/
-#categories{
- padding-right: 10px;
+#categories {
+    padding-right: 10px;
 
 }
+
 /*Estilização da logo do header*/
-.logo{
+.logo {
     height: 120px;
 }
+
 /*Estilização das ul utilizadas no header*/
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
+
 /*Estilização das listas do nav do header*/
-nav li{
+nav li {
     list-style: none;
     font-size: 25px;
 
-    
+
 }
+
 /*Estilização do posicionamento dos items header*/
-ul li{
+ul li {
     display: inline-block;
     position: relative;
 }
+
 /*Estilização dos items redirecionaveis do header*/
-ul li a{
+ul li a {
     display: block;
     padding: 10px 15px;
     color: white;
     text-decoration: none;
 }
+
 /*Estilização da ul*/
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
+
 /*Estilização do menu dropdown do header*/
-ul li ul.dropdown{
+ul li ul.dropdown {
     background-color: black;
     position: absolute;
     z-index: 999;
-   display: none;
+    display: none;
     border-radius: 10px;
 }
+
 /*Estilização do preenchimento dropdown header*/
-ul.dropdown{
+ul.dropdown {
     padding: 0;
 }
+
 /*Estilização do dropdown transformando o inline em um bloco alterável header*/
-ul li ul.dropdown li{
+ul li ul.dropdown li {
     display: block;
 }
+
 /*Estilização do dropdown transformando o inline em um bloco alterável header*/
-ul li:hover ul.dropdown{
+ul li:hover ul.dropdown {
     display: block;
 }
+
 /*Estilização do nav e items do  header*/
- nav a{
+nav a {
     color: white;
     text-decoration: none;
     position: relative;
-   
+
 }
+
 /*Estilização da ação dos items header*/
-.navigation a::after{
+.navigation a::after {
     content: " ";
     width: 0%;
     height: 4px;
     background-image:
-     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     transition: 0.5s ease-in-out;
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
 }
+
 /*Estilização do hover dos items do header*/
-.navigation a:hover::after{
+.navigation a:hover::after {
     width: 100%;
     border-radius: 10px;
     background-image:
-     radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
 }
+
 /*Fim do Header*/
 /*Estilização do footer*/
 #footer {
@@ -114,6 +131,7 @@ ul li:hover ul.dropdown{
     bottom: 0;
     margin-bottom: -5px;
 }
+
 /*Para preenchimento*/
 #secimg {
     background-color: black;
@@ -124,6 +142,7 @@ ul li:hover ul.dropdown{
     border-left-color: transparent;
 
 }
+
 /*overlay da borda gradiente*/
 #secimg2 {
     margin: 1px;
@@ -137,12 +156,14 @@ ul li:hover ul.dropdown{
     padding-left: 70px;
     padding-right: 70px;
 }
+
 /*Estilização dos titulos do site sem class ou id*/
 h1 {
     margin: 2%;
     color: white;
 
 }
+
 /*Estilização do título veja aqui*/
 #hp1 {
     margin-top: 55px;
@@ -154,6 +175,7 @@ h1 {
         3px 0 purple, 0 -1px purple;
 
 }
+
 /*Estilização das manchetes nóticias*/
 .secp {
     color: white;
@@ -161,6 +183,7 @@ h1 {
     display: flex;
 
 }
+
 /*Para preenchimento do mais visualizados*/
 #artimg2 {
     background-color: black;
@@ -172,6 +195,7 @@ h1 {
     width: 100%;
     padding-bottom: 100px;
 }
+
 /*overlay da borda gradiente*/
 #artimgback {
     border-radius: 10px;
@@ -180,6 +204,7 @@ h1 {
     width: 48%;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
+
 /*Para preenchimento do bombastico*/
 #artimg22 {
     background-color: black;
@@ -192,6 +217,7 @@ h1 {
     padding-bottom: 100px;
     margin-right: 1000px;
 }
+
 /*overlay da borda gradiente*/
 #artimgback2 {
     border-radius: 10px;
@@ -201,6 +227,7 @@ h1 {
     width: 48%;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
+
 /*Estilização do tamanho e posicionamento das imagens do mais visualizados e bombastico*/
 .imgnot {
     width: 185px;
@@ -209,11 +236,13 @@ h1 {
     border-radius: 10px;
     transition: transform 0.5s ease;
 }
+
 /*Estilização do tamanho das imagens do mais visualizados e bombastico quando se passa cursor sobre*/
 .imgnot:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
 }
+
 /*Estilização geral dos redirecionaveis*/
 a {
     display: flex;
@@ -222,20 +251,24 @@ a {
     text-decoration: none;
 
 }
+
 /*Estilização do posicionamento das imagens da seção veja mais*/
 .aimg {
     margin: 0px;
 }
+
 /*Estilização das manchetes nóticias*/
-.secp{
+.secp {
     text-align: justify;
     margin: 1%;
     font-size: 20px;
 }
+
 /*Estilização da cor das notícias quando se passa cursor sobre*/
 .secp:hover {
-    color:orchid;
+    color: orchid;
 }
+
 /*Estilização dos direitos autorais das imagens*/
 span {
     opacity: 0.8;
@@ -244,6 +277,7 @@ span {
     margin: 0;
     padding-right: 62%;
 }
+
 /*Para preenchimento*/
 #artimg4 {
     background-color: black;
@@ -253,6 +287,7 @@ span {
     border-left-width: 10px;
     border-left-color: transparent;
 }
+
 /*overlay da borda gradiente*/
 #artimg6 {
     width: 90%;
@@ -260,6 +295,7 @@ span {
     margin: 1%;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
+
 /*Div para ordenar overlays*/
 .display {
     display: flex;
@@ -270,6 +306,7 @@ span {
 .container002 {
     display: flex;
 }
+
 /*overlay da borda gradiente*/
 #artimgback3 {
     border-radius: 10px;
@@ -279,6 +316,7 @@ span {
     width: 94%;
     background-image: linear-gradient(135deg, #ff25c1 0, #f20dcb 12.5%, #d700d5 25%, #b500dd 37.5%, #8900e5 50%, #4218ec 62.5%, #0028f3 75%, #0033f8 87.5%, #003afc 100%);
 }
+
 /*Para preenchimento*/
 #artimg33 {
     background-color: black;
@@ -291,11 +329,13 @@ span {
     padding-bottom: 100px;
     margin-right: 1000px;
 }
+
 /*Estilização dos títulos da seção Veja aqui*/
 h2 {
     color: white;
     font-size: 30px;
 }
+
 /*Estilização do tamanho das imagens gerais do site*/
 img {
     width: 150px;
@@ -320,38 +360,45 @@ img {
     margin-left: 1px;
     border-radius: 9px;
 }
+
 /*Estilização do tamanho das imagens do veja aqui quando se passa cursor sobre*/
-.imgp:hover{
+.imgp:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
 }
+
 /*Estilização do tamanho das imagens da seção Veja aqui*/
-.imgpf{
-    width:180px;
+.imgpf {
+    width: 180px;
     height: 170px;
     border-radius: 10px;
 }
+
 /*Estilização do tamanho das imagens dos filmes do veja aqui quando se passa cursor sobre*/
-.imgpf:hover{
+.imgpf:hover {
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
 }
+
 /*Estilização da cor quando se passa o cursor sobre*/
-.p01:hover{
+.p01:hover {
     color: orchid;
 }
+
 /*título das matérias*/
-.p01{
+.p01 {
     text-align: left;
     text-align: justify;
     display: block;
     font-size: 20px;
 }
+
 /*Class para esconder imagens que não estão em estande*/
-.carrossel{
+.carrossel {
     margin: 0;
     overflow: hidden;
 }
+
 /*Fluxo dos slides*/
 .carrossel>.slide_container {
     display: flex;
@@ -359,35 +406,43 @@ img {
     width: 100%;
     transition: all 400ms ease;
 }
+
 /*Fluxo dos slides*/
 .carrossel>.slide_container>.item_1 {
     flex: 0 0 auto;
     width: 100%;
 }
+
 /*Fluxo dos slides*/
 .carrossel>input:nth-child(1):checked~.slide_container {
     transform: translateX(0);
 }
+
 /*Fluxo dos slides*/
 .carrossel>input:nth-child(2):checked~.slide_container {
     transform: translateX(-100%);
 }
+
 /*Fluxo dos slides*/
 .carrossel>input:nth-child(3):checked~.slide_container {
     transform: translateX(-200%);
 }
+
 /*Fluxo dos slides*/
 .carrossel>input:nth-child(4):checked~.slide_container {
     transform: translateX(-300%);
 }
+
 /*Fluxo dos slides*/
 .carrossel>input:nth-child(5):checked~.slide_container {
     transform: translateX(-400%);
 }
+
 /*Fluxo dos slides*/
 .carrossel>input:nth-child(6):checked~.slide_container {
     transform: translateX(-500%);
 }
+
 /*Input das bolinhas para slider*/
 input {
     margin: 15px;
@@ -398,10 +453,8 @@ input {
     height: 620px;
 }
 
-
 @media screen and (max-device-width: 900px) and (min-device-height:400px) {
 
-    /*Header*/
 
     header {
         height: 70px;
@@ -435,13 +488,10 @@ input {
         font-size: 100%;
     }
 
-    /*Dropdown*/
-
-
     .display {
         display: block;
     }
-    
+
     #artimgback {
         width: 88%;
         height: 600px;
@@ -456,76 +506,76 @@ input {
         margin-left: 5%;
     }
 
-   .imgnot {
-    width: 25%;
-    height: 5%;
-}
+    .imgnot {
+        width: 25%;
+        height: 5%;
+    }
 
-.secp {
-    font-size: 70%;
-    padding-left: 3%;
-    padding-right: 2%;
-}
+    .secp {
+        font-size: 70%;
+        padding-left: 3%;
+        padding-right: 2%;
+    }
 
-.legenda {
-    font-size: 70%;
-    margin-bottom: 55%;
-}
+    .legenda {
+        font-size: 70%;
+        margin-bottom: 55%;
+    }
 
-.titulos {
-    padding: 5%;
-}
+    .titulos {
+        padding: 5%;
+    }
 
-#imgnot2 {
-    width: 20%;
-    height: 5%;
-    border-radius: 5px;
-}
+    #imgnot2 {
+        width: 20%;
+        height: 5%;
+        border-radius: 5px;
+    }
 
-#artimg33 {
-    width: 98%;
-    height: 10%;
-}
+    #artimg33 {
+        width: 98%;
+        height: 10%;
+    }
 
-#artimg2 {
-    height: 500px;
-}
+    #artimg2 {
+        height: 500px;
+    }
 
-#artimg22 {
-    height: 500px;
-}
+    #artimg22 {
+        height: 500px;
+    }
 
-#artimgback3 {
-    width: 90%;
-    height: 10%;
-}
+    #artimgback3 {
+        width: 90%;
+        height: 10%;
+    }
 
-.none {
-    display: none;
-}
+    .none {
+        display: none;
+    }
 
 
-.p01 {
-    font-size: 70%;
-    padding-right: 50%;
-}
+    .p01 {
+        font-size: 70%;
+        padding-right: 50%;
+    }
 
-.imgp {
-    width: 90px;
-    height: 90px;
-    margin: 5px;
-}
+    .imgp {
+        width: 90px;
+        height: 90px;
+        margin: 5px;
+    }
 
-.imgpf {
-    width: 90px;
-    height: 90px;
-    margin: 15px;
-}
+    .imgpf {
+        width: 90px;
+        height: 90px;
+        margin: 15px;
+    }
 
-.carimg {
-    width: 80%;
-    height: 100%;
-}
+    .carimg {
+        width: 80%;
+        height: 100%;
+    }
 
     #artimg33 {
         height: 90px;
@@ -561,9 +611,8 @@ input {
         padding-top: 5%;
     }
 
-#footer {
-    height: 1250px;
-    width: 100%;
-}
-
+    #footer {
+        height: 1250px;
+        width: 100%;
+    }
 }
