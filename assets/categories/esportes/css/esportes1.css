@@ -132,6 +132,7 @@ p{
 #footer {
     width: 100%;
     margin-bottom: -5px;
+    height: 600px;
 }
 /*Estilização do Tamanho e posicionamento da imagem referente a notícia*/
 #not1img {

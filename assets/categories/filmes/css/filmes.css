@@ -19,6 +19,7 @@ body {
     width: 100%;
     margin-bottom: -5px;
     bottom: 0;
+    height: 600px;
 }
 #secimg {
     background-color: black;
@@ -199,6 +200,7 @@ span {
 }
 #not1{
     margin-top: 5%;
+  
 }
 #not10{
     margin-top: 0%;
@@ -316,6 +318,7 @@ ul li:hover ul.dropdown{
     #header{
         height: 100px;
         width: 400px;
+        
       
     }
    
@@ -323,6 +326,7 @@ ul li:hover ul.dropdown{
     #artimgback{
         margin-left: 20px;
         width: 850px;  
+        
         
     }
     #artimgback22{
@@ -347,6 +351,7 @@ ul li:hover ul.dropdown{
     }
     .imgnot33{
         width:300px;
+        
     
         
     }
@@ -358,11 +363,13 @@ ul li:hover ul.dropdown{
     }
     .titlee{
         font-size: xx-large;
+      margin: 0;
     }
     #secimg{
         width: -5px;
-    }
 
+    }
+   
     #carrossel{
         width: 100px;
     }
@@ -370,4 +377,18 @@ ul li:hover ul.dropdown{
         width: 300px;
     }
     
+    
+#footer{
+    width: 870px;
+    height: 1250px;
+}
+#_header{
+    width:205% ;
+}
+#title{
+    margin-right: 150px;
+
+
+
+}
 }

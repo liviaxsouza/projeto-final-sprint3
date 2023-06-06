@@ -183,8 +183,10 @@ nav a{
   
   /*estilização do footer*/
   #footer {
+    height: 600px;
     width: 100%;
     margin-bottom: -5px;
+    height: 600px;
   }
   /*estilização da parte dos depimentos*/
 #divcomentarios {
