@@ -5,7 +5,6 @@ body {
 
 /*Estilização do header*/
 
-
 header{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -117,3 +116,25 @@ label {
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+#tituloComentarios {
+    color: white;
+}
+
+#autorComentarios {
+    color: white;
+}
+
+#dataComentarios {
+    color: white;
+}
+
+#categoriasComentarios {
+    color: white;
+}
+
+#tituloComentarios {
+    color: white;
+}
+>>>>>>> b865d29d0fc36ca3155674fffc51ad3b16134557
