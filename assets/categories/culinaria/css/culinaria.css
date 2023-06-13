@@ -389,7 +389,7 @@ span {
   /*responsividade*/
   @media (max-device-width: 900px) and (min-device-height: 400px) {
     header{
-        width: 1000px;
+        width: 1010px;
     }
     body{
         margin: 0%;
@@ -407,6 +407,62 @@ span {
         width: 130px;
     }
     #footer{
+        width: 1110px;
+    }
+    #secimg{
+        width: 185%;
+    }
+    #artimgback{
         width: 1100px;
+        font-size: 30px;
+    }
+    #artimgback22{
+        width: 1100px;
+        font-size: 30px;
+    }
+    #artimgback33{
+        width: 1100px;
+        font-size: 30px;
+    }
+    a{
+    margin-right: 150px;
+    }
+    .sectioncomentarios{
+        width: 1100px;
+        font-size: 30px;
+    }
+    #estrelaavaliacao{
+    width: 30px;
+    }
+    .colfooter{
+        font-size: 50px;
+    }
+    #ha28{
+        font-size: 25px;
+    }
+    #ha27{
+        font-size: 25px;
+    }
+    #ref01{
+        margin-left: 10px;
+        width: 160px;
+    }
+    span{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #pa02{
+        font-size: 30px;
+    }
+    #reccome{
+        font-size: 30px;
+    }
+    #title{
+        font-size: 40px;
+    }
+    #pa01{
+        font-size: 30px;
     }
   }
