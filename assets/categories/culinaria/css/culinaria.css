@@ -389,7 +389,7 @@ span {
   /*responsividade*/
   @media (max-device-width: 900px) and (min-device-height: 400px) {
     header{
-        width: 1000px;
+        width: 1010px;
     }
     body{
         margin: 0%;
@@ -407,7 +407,7 @@ span {
         width: 130px;
     }
     #footer{
-        width: 1100px;
+        width: 1110px;
     }
     #secimg{
         width: 185%;
