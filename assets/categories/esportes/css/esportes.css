@@ -275,7 +275,16 @@ ul li:hover ul.dropdown{
 
     .artimgback {
         margin: 5%;
-        height: 90%;
+        height: 80vw;
+    }
+
+    .artimg22 {
+        margin: 5%;
+        height: 80vw;
+    }
+
+    .titlee {
+        padding: 3%;
     }
 
     .secp {
@@ -284,6 +293,6 @@ ul li:hover ul.dropdown{
 
     span {
         font-size: 90%;
-
+        padding: 5%;
     }
 }
