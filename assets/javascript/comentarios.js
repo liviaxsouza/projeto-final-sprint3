@@ -6,4 +6,3 @@ function art() {
  data = document.getElementById("data").value;
  categorias = document.getElementById("categorias").value;
 }
-
