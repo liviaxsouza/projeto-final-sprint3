@@ -357,4 +357,13 @@ ul li:hover ul.dropdown{
     .flex {
         padding: 0;
     }
+
+    #imgTaylor {
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .youtube {
+        justify-content: center;
+    }
 }
