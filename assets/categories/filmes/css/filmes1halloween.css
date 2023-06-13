@@ -248,3 +248,72 @@ ul li:hover ul.dropdown{
     background-image:
      radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
 }
+
+
+@media (max-device-width: 900px) {
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        width: 20%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    #home {
+        font-size: 100%;
+    }
+
+    #categorias {
+        font-size: 100%;
+    }
+
+    #nos {
+        font-size: 100%;
+    }
+
+    #video2 {
+        width: 95vw;
+        height: 30vh;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .titlemat {
+        text-align: center;
+    }
+
+    .not1img {
+        text-align: center;
+    }
+    
+    p {
+        padding-left: 5%;
+    }
+
+    .notp {
+        padding-left: 3%;
+        width: 90%;
+    }
+
+    #footer {
+        height: 150vh;
+    }
+
+    .flex {
+        padding: 0;
+    }
+}
