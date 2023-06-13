@@ -251,43 +251,69 @@ ul li:hover ul.dropdown{
 
 
 @media (max-device-width: 900px) {
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        width: 20%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    #home {
+        font-size: 100%;
+    }
+
+    #categorias {
+        font-size: 100%;
+    }
+
+    #nos {
+        font-size: 100%;
+    }
+
+    #video2 {
+        width: 95vw;
+        height: 30vh;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .titlemat {
+        text-align: center;
+    }
+
+    .not1img {
+        text-align: center;
+    }
+    
+    p {
+        padding-left: 5%;
+    }
+
+    .notp {
+        padding-left: 3%;
+        width: 90%;
+    }
+
     #footer {
-        width: 570px;
-        height: 1250px;
-        margin-top: 100vh;
-    }
-
-    #_header {
-        width: 117%;
-    }
-
-
-    .divaside {
-        width: 100%;
-        height: 900px;
-        background-color: rgb(0, 0, 0);
-        right: 0;
-        top: 159px;
-        position: absolute;
-        margin-top: 380vh;
-        margin-left: 5vw;
-       
+        height: 150vh;
     }
 
     .flex {
-    margin-bottom: 5%;
-    }
-
-    #principal {
-        width: 100%;
-    }
-    #not1img{
-        width: 500px;
-    }
-    .notp{
-        font-size: x-large;
-    }
-    #materiacr{
-      width: 100vh;
+        padding: 0;
     }
 }
