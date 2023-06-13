@@ -466,3 +466,12 @@ span {
         font-size: 30px;
     }
   }
+
+  @media screen and (max-device-width: 900px) {
+    #title {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin-left: 280px;
+    }
+  }
