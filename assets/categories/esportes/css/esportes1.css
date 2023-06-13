@@ -348,4 +348,8 @@ p{
         height: 125vh;
     }
 
+    .flex {
+        padding: 0;
+    }
+
 }
