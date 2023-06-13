@@ -319,8 +319,8 @@ p{
     }
 
     #video2 {
-        width: 100%;
-        height: 100%;
+        width: 95vw;
+        height: 30vh;
     }
 
     aside {
@@ -342,6 +342,10 @@ p{
     .notp {
         padding-left: 3%;
         width: 90%;
+    }
+
+    #footer {
+        height: 125vh;
     }
 
 }
