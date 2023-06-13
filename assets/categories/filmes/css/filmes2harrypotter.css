@@ -256,8 +256,8 @@ ul li:hover ul.dropdown{
     }
 
     .logo {
-        width: 50%;
-        height: 50%;
+        width: 20%;
+        height: 100%;
         padding: 0;
         margin: 0;
     }
@@ -310,7 +310,7 @@ ul li:hover ul.dropdown{
     }
 
     #footer {
-        height: 125vh;
+        height: 100vh;
     }
 
     .flex {
