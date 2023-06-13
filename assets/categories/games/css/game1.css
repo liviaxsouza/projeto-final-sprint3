@@ -354,3 +354,63 @@ nav a {
 a{
     text-decoration: none;
 }
+@media (max-device-width: 900px) and (min-device-height: 400px){
+    header{
+        width: 800px;
+    }
+    #footer{
+        width: 900px;
+        height: 1300px;
+    }
+    aside{
+        display: none;
+    }
+    .marginleft{
+        width: 100%;
+        font-size: 20px;
+        margin-left: 200px;
+    }
+    #not1img{
+        margin-left: 300px;
+    }
+    .titlem{
+        width: 100%;
+        margin-left: 250px;
+    }
+    .notp{
+        width: 90%;
+        padding-left: 3%;
+        margin-left: 230px;
+        font-size: 30px;
+    }
+    .spa{
+        margin-left: 300px;
+    }
+    .titlemat{
+        width: 100%;
+        margin-left: 220px;
+    }
+    .adquirir{
+        width: 100%;
+        margin-left: 300px;
+    }
+    #logoxbox{
+        margin-left: 400px;
+        
+    }
+    #logops4{
+        margin-left: 400px;
+    }
+    #logosteam{
+        margin-left: 400px;
+    }
+    #divcomentarios{
+        width: 800px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #estrelaavaliacao{
+        width: 20px;
+    }
+}
