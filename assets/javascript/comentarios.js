@@ -1,9 +1,13 @@
 function art() {
     
- titulo = document.getElementById("titulo").value;
- resumo = document.getElementById("resumo").value;
- autor = document.getElementById("autor").value;
- data = document.getElementById("data").value;
- categorias = document.getElementById("categorias").value;
-}
+let inputTitulo = document.getElementById("titulo").value;
+let inputResumo = document.getElementById("resumo").value;
+let inputAutor = document.getElementById("autor").value;
+let inputData = document.getElementById("data").value;
+let inputCategorias = document.getElementById("categorias").value;
+let arrayInputs = [];
 
+var hgjgiy= '<p>' + titulo + '</p>';
+
+var abc = document.getElementById("lili");
+}
