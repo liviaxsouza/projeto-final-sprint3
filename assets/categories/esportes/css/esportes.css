@@ -275,12 +275,12 @@ ul li:hover ul.dropdown{
 
     .artimgback {
         margin: 5%;
-        height: 80vw;
+        height: 90vw;
     }
 
     .artimg22 {
-        margin: 5%;
-        height: 80vw;
+        margin: 7%;
+        height: 90vw;
     }
 
     .titlee {
@@ -294,5 +294,9 @@ ul li:hover ul.dropdown{
     span {
         font-size: 90%;
         padding: 5%;
+    }
+
+    #footer {
+        height: 1100px;
     }
 }

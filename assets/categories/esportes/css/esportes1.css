@@ -318,4 +318,37 @@ p{
         font-size: 100%;
     }
 
+    #video2 {
+        width: 95vw;
+        height: 30vh;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .titlemat {
+        text-align: center;
+    }
+
+    .not1img {
+        text-align: center;
+    }
+    
+    p {
+        padding-left: 5%;
+    }
+
+    .notp {
+        padding-left: 3%;
+        width: 90%;
+    }
+
+    #footer {
+        height: 125vh;
+    }
+
+    .flex {
+        padding: 0;
+    }
 }
