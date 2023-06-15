@@ -116,8 +116,6 @@ label {
     color: white;
 }
 
-<<<<<<< HEAD
-=======
 #tituloComentarios {
     color: white;
 }
@@ -137,4 +135,26 @@ label {
 #tituloComentarios {
     color: white;
 }
->>>>>>> b865d29d0fc36ca3155674fffc51ad3b16134557
+
+/*
+#articleArt {
+    background-color: #d037fa;
+    padding: 3%;
+    border-radius: 5%;
+    width: 30%;
+}
+*/
+
+#articleArt {
+    -webkit-box-shadow: 0px 0px 40px 14px rgba(208,55,250,0.75);
+-moz-box-shadow: 0px 0px 40px 14px rgba(208,55,250,0.75);
+box-shadow: 0px 0px 40px 14px rgba(208,55,250,0.75);
+    width: 30%;
+    border-radius: 3%;
+    padding: 1%;
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+
