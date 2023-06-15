@@ -448,4 +448,8 @@ body {
         #estrelaavaliacao{
             width: 60px;
         }
+        ul{
+            width: 100%;
+            margin-left: 350px;
+        }
       }
