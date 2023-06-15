@@ -194,7 +194,7 @@ input {
 }
 
 .artigosCard{
-    -webkit-box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
+    -webkit-box-shadow: 0px 0px 10px 9px #d037fa;
 -moz-box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
 box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
     background-color: #000000;
@@ -203,7 +203,7 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
     text-align: left;
     margin-bottom: 7%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
     padding: 0;
     align-items: flex-start;
@@ -224,4 +224,24 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
 
 .buttonDeletarArtigosCards {
     padding-left: 96%;
+}
+
+#infoCard{
+    width: 90%;
+}
+
+#iconCard{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+#iconLixeira{
+    cursor: pointer;
+}
+
+#iconLixeira:hover{
+    background-color: aliceblue;
 }
