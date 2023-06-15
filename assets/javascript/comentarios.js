@@ -11,6 +11,13 @@ function artigo() {
     armazem.push(lista);
 
     atualizarLista();
+    
+    inputTitulo = document.getElementById("titulo").value = "";
+    inputResumo = document.getElementById("resumo").value = "";
+    inputAutor = document.getElementById("autor").value = "";
+    inputData = document.getElementById("data").value = "";
+    inputCategorias = document.getElementById("categorias").value = "Culinária";
+
 }
 
 function atualizarLista() {
@@ -21,17 +28,16 @@ function atualizarLista() {
         let noticia = armazem[i];
 
         msg += `
-        <li>
-            <div>
-                <h1 id="tituloComentarios">${noticia[0]}</h1>
-                <p id="autorComentarios">${noticia[1]}</p>
-                <p id="dataComentarios">${noticia[2]}</p>
-                <p id="categoriasComentarios">${noticia[3]}</p>
-                <p id="Comentarios">${noticia[4]}</p>
-            </div>
-        </li>
+        <div class = "artigosCard">
+                <h1 id="tituloComentarios" class="pArtigos">${noticia[0]}</h1>
+                <p id="autorComentarios" class="pArtigos">${noticia[1]}</p>
+                <p id="dataComentarios" class="pArtigos">${noticia[2]}</p>
+                <p id="categoriasComentarios" class="pArtigos">${noticia[3]}</p>
+                <p id="Comentarios" class="pArtigos">${noticia[4]}</p>
+        </div>
         `
     }   
     
     lista.innerHTML = msg;
 }
+

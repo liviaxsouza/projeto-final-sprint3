@@ -58,54 +58,63 @@
     </div>
   </header>
 
-<article id="center">
-<article id="articleArt">
-  <div class="painel"></div>
-  <h2>Que tal publicar o seu próprio artigo?</h2>
-
-  <div class="classtitulo">
-    <label for="titulo">Escreva um título:</label>
-    <input type="text" id="titulo" required>
+  <div id="divCenter">
+    <article class="center">
+      <article id="articleArt">
+        <div class="painel">
+          <h2>Que tal publicar o seu próprio artigo?</h2>
+  
+          <div class="classtitulo">
+            <label for="titulo">Escreva um título:</label>
+            <input type="text" id="titulo" required>
+          </div>
+  
+          <div class="classsubtitulo">
+            <label for="resumo">Resuma ou adicione um subtítulo:</label>
+            <input type="text" id="resumo" required>
+          </div>
+  
+          <div class="classcategorias">
+            <p>Selecione uma categoria:
+            <p>
+              <select id="categorias">
+                <option>Culinária</option>
+                <option>Esportes</option>
+                <option>Filmes</option>
+                <option>Games</option>
+                <option>Música</option>
+                <option>Vestibular</option>
+              </select>
+          </div>
+  
+          <div class="classautor">
+            <label for="autor">Nome do autor:</label>
+            <input type="text" id="autor" required>
+          </div>
+  
+          <div class="classdata">
+            <label for="data">Data de publicação</label>
+            <input type="date" id="data" required>
+          </div>
+          <div id="divBo">
+            <button class="buttonSub" onclick="artigo()">Publicar!</button>
+  
+          </div>
+        </div>
+  
+      </article>
+  
+  
+    </article>
+    <article class="center">
+      <p id="divArtigo">
+  
+      </p>
+    </article>
   </div>
 
-  <div class="classsubtitulo">
-    <label for="resumo">Resuma ou adicione um subtítulo:</label>
-    <input type="text" id="resumo" required>
-  </div>
-
-  <div class="classcategorias">
-    <p>Selecione uma categoria:
-    <p>
-      <select id="categorias">
-        <option>Culinária</option>
-        <option>Esportes</option>
-        <option>Filmes</option>
-        <option>Games</option>
-        <option>Música</option>
-        <option>Vestibular</option>
-      </select>
-  </div>
-
-  <div class="classautor">
-    <label for="autor">Nome do autor:</label>
-    <input type="text" id="autor" required>
-  </div>
-
-  <div class="classdata">
-    <label for="data">Data de publicação</label>
-    <input type="date" id="data" required>
-  </div>
-
-  <button onclick="artigo()">Publicar!</button>
-  </div>
-
-</article>
-</article>
 
 
-  <ul id="divArtigo">
-
-  </ul>
 
 </body>
 
