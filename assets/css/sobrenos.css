@@ -281,9 +281,36 @@ nav a {
         margin-left: -45px;
         width: 500px;
     }
-    #header{
-        height: 100px;
-        width: 400px;
+    header {
+        height: 70px;
+        width: 20px;
+
     }
+
+    #nos {
+        display: none;
+    }
+
+    #categorias {
+        display: none;
+    }
+
+
+    #footer {
+        height: 144vh;
+        width: 100vw;
+    }
+
+    #home {
+        padding-left: 110px;
+        margin-top: 30px;
+    }
+
+    .logo {
+        height: 100px;
+        margin-top: 35px;
+    }
+
+    
   }
   
