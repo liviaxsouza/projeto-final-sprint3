@@ -324,7 +324,7 @@ nav a {
     }
 
     #nos {
-        font-size: 100%;
+        font-size: 80%;
     }
 
 
@@ -335,7 +335,7 @@ nav a {
         right: 0;
         top: 159px;
         position: absolute;
-        margin-top: 170vh;
+        margin-top: 160vh;
         margin-left: 5vw;
        
     }
@@ -356,4 +356,6 @@ nav a {
     #materiacr{
       width: 100vh;
     }
+
+
 }
