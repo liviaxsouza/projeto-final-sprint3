@@ -1,7 +1,7 @@
 #footer {
     width: 100%;
     margin-bottom: -5px;
-    height: 600px;
+    height: 600px
   }
   header{
     background-color: var(--color-dark);
@@ -76,8 +76,25 @@ height: 200px;
     margin-right: 500px;
 }
 #daniel {
-    margin-right: 500px;
+    margin-right:20px;
 }
+
+#um {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 35%;
+}
+
+#dois{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 35%;
+}
+
 
 @media screen and (max-device-width: 900px) and (min-device-height:400px) {
 
