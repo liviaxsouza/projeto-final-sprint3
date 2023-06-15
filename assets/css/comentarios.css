@@ -153,6 +153,19 @@ label {
     text-align: left;
     margin: 2%;
     margin-bottom: 7%;
-    
+
 }
 
+input {
+    margin: 1%;
+}
+
+#titulo {
+    width: 20vw;
+    height: 4vh;
+}
+
+#resumo {
+    width: 40vw;
+    height: 5vh;
+}
