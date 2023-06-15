@@ -286,3 +286,18 @@ footer {
     width: 100%;
 
 }
+
+.grad-button {
+    background: linear-gradient(135deg, #8B00FF, #00FFFF);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .grad-button:hover {
+    opacity: 0.8;
+  }
+  
