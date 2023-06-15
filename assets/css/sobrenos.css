@@ -131,10 +131,13 @@
 
   #time1 {
     display: flex;
+    text-align: center;
+    padding-top: 3%;
   }
 
   #time2 {
     display: flex;
+    text-align: center;
   }
   
   #titulo {
@@ -145,6 +148,40 @@
   @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
     #footer {
       height: 1300px;
+    }
+
+    #time1 {
+        text-align: center;
+        display: block;
+    }
+
+    #time2 {
+        text-align: center;
+        display: block;
+    }
+
+    #cinco {
+        padding-top: 5%;
+    }
+
+    #seis {
+        padding-top: 5%;
+    }
+
+    #um {
+        padding-top: 5%;
+    }
+
+    #dois {
+        padding-top: 5%;
+    }
+
+    #tres {
+        padding-top: 5%;
+    }
+
+    #quatro {
+        padding-top: 5%;
     }
   }
   
