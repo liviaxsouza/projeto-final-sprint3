@@ -125,7 +125,7 @@ label {
 #articleArt {
     -webkit-box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
 -moz-box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
-box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
+box-shadow: 0px 0px 10px 9px #d037fa;
     background-color: #000000;
     width: 90%;
     text-align: left;
@@ -220,4 +220,8 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
     margin: 20px;
     padding: 0;
     align-items: flex-start;
+}
+
+.buttonDeletarArtigosCards {
+    padding-left: 96%;
 }
