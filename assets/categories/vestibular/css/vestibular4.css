@@ -406,7 +406,7 @@ ul li:hover ul.dropdown{
         }
         .titlem{
             width: 100%;
-            margin-left: 350px;
+            margin-left: 500px;
             font-size: 50px;
         }
         .img4{
@@ -443,5 +443,24 @@ ul li:hover ul.dropdown{
         }
         #estrelaavaliacao{
             width: 60px;
+        }
+        .pa7{
+            margin-left: 520px;
+        }
+        .ul1{
+            width: 100%;
+            margin-left: 350px;
+        }
+        .pa6{
+            width: 100%;
+            margin-left: 470px;
+        }
+        .pa5{
+            width: 100%;
+            margin-left: 500px;
+        }
+        .titlemn{
+            width: 100%;
+            margin-left: 380px;
         }
       }
