@@ -455,6 +455,32 @@ input {
     height: 620px;
 }
 
+.bttnArtigo {
+	box-shadow: 0px 0px 0px 0px #000000;
+	background:linear-gradient(to bottom, #f20dcb 5%, #c492d1 100%);
+	background-color:#f20dcb;
+	border-radius:24px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:17px 26px;
+	text-decoration:none;
+	text-shadow:-1px 0px 5px #ffffff;
+    margin: 0;
+}
+.bttnArtigo:hover {
+	background:linear-gradient(to bottom, #c492d1 5%, #b400dd 100%);
+	background-color:#c000a0;
+}
+.bttnArtigo:active {
+	position:relative;
+	top:1px;
+}
+
 @media screen and (max-device-width: 900px) and (min-device-height:400px) {
 
 
