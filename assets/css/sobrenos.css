@@ -2,7 +2,7 @@ body {
     background-color: #000000;
 }
 
-p {
+#p1 {
     background-image: linear-gradient(to bottom, rebeccapurple, rgb(135, 91, 238), rgb(129, 244, 232));
   background-clip: text;
   -webkit-background-clip: text; 
@@ -28,115 +28,115 @@ h2 {
     height: 600px;
   }
   
-  #_header{
-    width:110% ;
-}
-
-.logo {
-    width: 40%;
-    height: 20%;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    padding: 0;
-    margin: 0;
-}
-
-ul {
-    display: flex;
-}
-
-#home {
-    font-size: 170%;
-    padding-right: 200px;
-
-}
-
-#categorias {
-    font-size: 100%;
-}
-
-#nos {
-    font-size: 100%;
-}
-
-
-  header {
-    background-color: var(--color-dark);
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10%;
-    flex-direction: row;
-    align-items: center;
-    box-shadow: 1px 1px 4px var(--color-grey);
-    height: 100px;
-  }
-  
-  :root {
-    --color-dark: #000000;
-    --color-grey: #3a3a3a;
-  }
-  
-  body {
-    margin: 0;
+  /*Estilização do header*/
+header {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-  }
-  
-  header {
     background-color: var(--color-dark);
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
-    flex-direction: row;
     align-items: center;
     box-shadow: 1px 1px 4px var(--color-grey);
-    height: 100px;
-  }
-  
-  nav li {
-    list-style: none;
-    font-size: 20px;
-  }
-  
-  ul {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+}
+
+/*Estilização das Categorias do header*/
+#categories {
+    padding-right: 10px;
+
+}
+
+/*Estilização da logo do header*/
+.logo {
+    height: 120px;
+}
+
+/*Estilização das ul utilizadas no header*/
+ul {
     margin: 0;
-    padding-left: 0;
-  }
-  
-  .navigation a {
+    padding: 0;
+}
+
+/*Estilização das listas do nav do header*/
+nav li {
+    list-style: none;
+    font-size: 25px;
+
+
+}
+
+/*Estilização do posicionamento dos items header*/
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+/*Estilização dos items redirecionaveis do header*/
+ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Estilização da ul*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilização do menu dropdown do header*/
+ul li ul.dropdown {
+    background-color: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 10px;
+}
+
+/*Estilização do preenchimento dropdown header*/
+ul.dropdown {
+    padding: 0;
+}
+
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li ul.dropdown li {
+    display: block;
+}
+
+/*Estilização do dropdown transformando o inline em um bloco alterável header*/
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+/*Estilização do nav e items do  header*/
+nav a {
     color: white;
     text-decoration: none;
     position: relative;
-  }
-  
-  .navigation li:hover {
+
+}
+
+/*Estilização da ação dos items header*/
+.navigation a::after {
     content: " ";
-    width: 100%;
+    width: 0%;
     height: 4px;
-    background-image: radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
-    margin: 0;
-  }
-  
-  #categories {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .btn_icon_header {
-    display: none;
-    background-color: transparent;
-    border: none;
-    color: whitesmoke;
-  }
-  
-  #logo {
-    height: 200px;
-  }
+    background-image:
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+/*Estilização do hover dos items do header*/
+.navigation a:hover::after {
+    width: 100%;
+    border-radius: 10px;
+    background-image:
+        radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
+}
   
   #richard {
     margin-right: 500px;
@@ -208,6 +208,27 @@ ul {
     color: white;
     font-weight: bold
   }
+  /* Estilos do dropdown */
+.dropdown {
+    display: none;
+}
+
+#categorias:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown a {
+    padding: 10px;
+}
+
+.dropdown a:hover {
+    background-color: #000000;
+}
+
   
   @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
     #footer {
@@ -259,6 +280,10 @@ ul {
         padding-top: 7%;
         margin-left: -45px;
         width: 500px;
+    }
+    #header{
+        height: 100px;
+        width: 400px;
     }
   }
   
