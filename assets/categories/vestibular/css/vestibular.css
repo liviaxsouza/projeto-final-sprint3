@@ -373,3 +373,59 @@ margin-left: 25%;
 
 #div_bottom {
     margin-bottom: 10px;}
+
+
+@media (max-device-width: 900px) {
+        header {
+            height: 90px;
+            width: 530px;
+        }
+    
+        .logo {
+            width: 20%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            padding: 0;
+            margin: 0;
+        }
+    
+        ul {
+            display: flex;
+        }
+    
+        #home {
+            font-size: 100%;
+        }
+    
+        #categorias {
+            font-size: 100%;
+        }
+    
+        #nos {
+            font-size: 100%;
+        }
+        #artimgback{
+            display: flex;
+        }
+        #not1img{
+            width: 400px;
+        }
+        .imgnot{
+            width: 200px;
+            height: 150px;
+        }
+        .secp{
+            font-size: x-large;
+        }
+        #footer {
+            height: 150vh;
+            width: 70vh;
+        }
+        #secimg2{
+           
+            
+        }
+    }
