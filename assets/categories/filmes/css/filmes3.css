@@ -287,12 +287,43 @@ nav a {
 @media (max-device-width: 900px) {
     #footer {
         width: 570px;
-        height: 1250px;
+        height: 1280px;
         margin-top: 100vh;
     }
 
-    #_header {
-        width: 117%;
+   
+
+    header {
+        width: 120%;
+        height: 100%;
+    }
+
+    .logo {
+        width: 20%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    #home {
+        font-size: 100%;
+    }
+
+    #categorias {
+        font-size: 100%;
+    }
+
+    #nos {
+        font-size: 100%;
     }
 
 
@@ -303,7 +334,7 @@ nav a {
         right: 0;
         top: 159px;
         position: absolute;
-        margin-top: 190vh;
+        margin-top: 170vh;
         margin-left: 5vw;
        
     }
