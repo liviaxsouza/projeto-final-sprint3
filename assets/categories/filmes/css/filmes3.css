@@ -286,16 +286,17 @@ nav a {
 
 @media (max-device-width: 900px) {
     #footer {
-        width: 570px;
+        width: 420px;
         height: 1280px;
         margin-top: 100vh;
     }
 
    
 
-    header {
-        width: 120%;
-        height: 100%;
+    #_header {
+        height: 70px;
+       
+        
     }
 
     .logo {
@@ -347,7 +348,7 @@ nav a {
         width: 100%;
     }
     #not1img{
-        width: 500px;
+        width: 350px;
     }
     .notp{
         font-size: x-large;
