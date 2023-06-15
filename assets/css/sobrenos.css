@@ -1,3 +1,27 @@
+body {
+    background-color: #000000;
+}
+
+p {
+    background-image: linear-gradient(to bottom, rebeccapurple, rgb(135, 91, 238), rgb(129, 244, 232));
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+
+  
+}
+
+h2 {
+    background-image: linear-gradient(to bottom, rebeccapurple, rgb(135, 91, 238), rgb(129, 244, 232));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #footer {
     width: 100%;
     margin-bottom: -5px;
@@ -25,7 +49,9 @@ ul {
 }
 
 #home {
-    font-size: 100%;
+    font-size: 170%;
+    padding-right: 200px;
+
 }
 
 #categorias {
@@ -166,17 +192,21 @@ ul {
     display: flex;
     text-align: center;
     padding-top: 3%;
+    color: white;
   }
 
   #time2 {
     display: flex;
     text-align: center;
     padding-top: 7%;
+    color: white;
   }
   
   #titulo {
     text-align: center;
     padding-top: 6%;
+    color: white;
+    font-weight: bold
   }
   
   @media screen and (max-device-width: 900px) and (min-device-height: 400px) {
