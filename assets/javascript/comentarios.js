@@ -8,10 +8,14 @@ function artigo() {
     let inputCategorias = document.getElementById("categorias").value;
     let lista = [inputTitulo, inputAutor, inputData, inputCategorias, inputResumo];
 
+     // Verificar se os campos estao preencido antes de permitir adicionar no vetor.
+
+
     armazem.push(lista);
 
+ 
     atualizarLista();
-    
+
     inputTitulo = document.getElementById("titulo").value = "";
     inputResumo = document.getElementById("resumo").value = "";
     inputAutor = document.getElementById("autor").value = "";
@@ -24,7 +28,7 @@ function atualizarLista() {
     let msg = "";
     const lista = document.getElementById("divArtigo");
 
-    for (let i = 0; i <  armazem.length; i++) {
+    for (let i = 0; i < armazem.length; i++) {
         let noticia = armazem[i];
 
         msg += `
@@ -34,10 +38,23 @@ function atualizarLista() {
                 <p id="dataComentarios" class="pArtigos">${noticia[2]}</p>
                 <p id="categoriasComentarios" class="pArtigos">${noticia[3]}</p>
                 <p id="Comentarios" class="pArtigos">${noticia[4]}</p>
+                <button class = "buttonDeletarArtigosCards" onclick = deletar(${i})>Deletar</button>
         </div>
         `
-    }   
-    
+    }
+
     lista.innerHTML = msg;
 }
+
+function deletar(index) {
+    armazem.splice(index, 1);
+    atualizarLista();
+}
+
+// Estiliar os inputs para ficar do tamanho certo
+// Deixar a data no padrao brasil
+
+
+// Se sobrar tempo Verificar se o data que esta sendo adicionado nao é no passado
+// Ao inves do botao, colocar um icone de lixeira
 
