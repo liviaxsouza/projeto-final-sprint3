@@ -288,7 +288,7 @@ ul li:hover ul.dropdown{
             display: none;
         }
         header{
-            width: 1114px;
+            width: 1165px;
             height: 150px;
         }
         body{
@@ -361,6 +361,7 @@ ul li:hover ul.dropdown{
         }
         #title{
             font-size: 40px;
+            margin-left: 450px;
         }
         #pa01{
             font-size: 30px;
@@ -377,6 +378,8 @@ ul li:hover ul.dropdown{
         }
         p{
             font-size: 30px;
+            width: 100%;
+            
         }
         #not1img{
             margin-left: 350px;
@@ -394,7 +397,8 @@ ul li:hover ul.dropdown{
             width: 1252px;
         }
         .titlem{
-            margin-left: 450px;
+            width: 100%;
+            margin-left: 350px;
             font-size: 50px;
         }
         .img4{
