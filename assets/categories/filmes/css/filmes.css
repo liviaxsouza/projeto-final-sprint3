@@ -307,7 +307,7 @@ ul li:hover ul.dropdown{
 }
 
 
-@media (max-device-width: 900px) {
+@media screen and (max-device-width: 900px) and (min-device-height:400px) {
     #fotosc{
         width: 880px;
         margin-left: 50px;
@@ -380,11 +380,40 @@ ul li:hover ul.dropdown{
     
 #footer{
     width: 890px;
-    height: 1280px;
+    height: 1300px;
 }
 #_header{
-    width:195% ;
+    width:210% ;
 }
+
+.logo {
+    width: 20%;
+    height: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+}
+
+#home {
+    font-size: 100%;
+}
+
+#categorias {
+    font-size: 100%;
+}
+
+#nos {
+    font-size: 100%;
+}
+
 #title{
     margin-right: 150px;
 
