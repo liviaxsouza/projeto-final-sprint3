@@ -131,7 +131,7 @@ form{
 
 /*alteração no botão*/
  .myButton {
-	background: var(--color-gradient);
+	
 	background-color:#dfbdfa;
 	border-radius:9px;
 	border:1px solid #c584f3;
