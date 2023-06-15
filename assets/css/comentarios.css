@@ -5,7 +5,6 @@ body {
 
 /*Estilização do header*/
 
-
 header{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -101,11 +100,6 @@ ul li:hover ul.dropdown{
      radial-gradient(circle at 92.75% 69.94%, #d037fa 0, #b325f3 25%, #910bea 50%, #6a00e1 75%, #3800d9 100%);
 }
 
-#footer {
-    width: 900px;
-    height: 1300px;
-}
-
 h1 {
     color: white;
 }
@@ -123,21 +117,21 @@ label {
 }
 
 #tituloComentarios {
-    
+    color: white;
 }
 
 #autorComentarios {
-    
+    color: white;
 }
 
 #dataComentarios {
-    
+    color: white;
 }
 
 #categoriasComentarios {
-    
+    color: white;
 }
 
 #tituloComentarios {
-    
+    color: white;
 }
