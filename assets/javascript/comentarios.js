@@ -6,7 +6,11 @@ function artigo() {
     let inputAutor = document.getElementById("autor").value;
     let inputData = document.getElementById("data").value;
     let inputCategorias = document.getElementById("categorias").value;
-    let lista = [inputTitulo, inputAutor, inputData, inputCategorias, inputResumo];
+    let date = inputData.split("-");
+    let dateBr = date.reverse().join("/");
+
+    let lista = [inputTitulo, inputAutor, dateBr, inputCategorias, inputResumo];
+
 
 
     if (inputTitulo = "") {
@@ -39,7 +43,7 @@ function atualizarLista() {
         <div class = "artigosCard">
                 <h1 id="tituloComentarios" class="pArtigos">${noticia[0]}</h1>
                 <p id="autorComentarios" class="pArtigos">${noticia[1]}</p>
-                <p id="dataComentarios" class="pArtigos">${noticia[2].toLocalDateString()}</p>
+                <p id="dataComentarios" class="pArtigos">${noticia[2]}</p>
                 <p id="categoriasComentarios" class="pArtigos">${noticia[3]}</p>
                 <p id="Comentarios" class="pArtigos">${noticia[4]}</p>
                 <button class = "buttonDeletarArtigosCards" onclick = deletar(${i})>Deletar</button>
