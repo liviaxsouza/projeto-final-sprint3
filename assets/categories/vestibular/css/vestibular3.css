@@ -300,7 +300,7 @@ body {
             display: none;
         }
         header{
-            width: 1114px;
+            width: 1165px;
             height: 150px;
         }
         body{
@@ -373,6 +373,7 @@ body {
         }
         #title{
             font-size: 40px;
+            margin-left: 450px;
         }
         #pa01{
             font-size: 30px;
@@ -389,6 +390,8 @@ body {
         }
         p{
             font-size: 30px;
+            width: 100%;
+            
         }
         #not1img{
             margin-left: 350px;
@@ -406,7 +409,8 @@ body {
             width: 1252px;
         }
         .titlem{
-            margin-left: 450px;
+            width: 100%;
+            margin-left: 350px;
             font-size: 50px;
         }
         .img4{

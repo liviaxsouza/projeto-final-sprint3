@@ -291,3 +291,157 @@ ul li:hover ul.dropdown{
 #div_bottom {
     margin-bottom: 10px;}
 
+    @media (max-device-width: 900px) and (min-device-height: 400px) {
+        aside{
+            display: none;
+        }
+        header{
+            width: 1165px;
+            height: 150px;
+        }
+        body{
+            margin: 0%;
+        }
+        #secimg2{
+            width: 550px;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+        #ha28{
+            margin-left: 25px;
+        }
+        #ref01{
+            margin-left: -5px;
+            width: 130px;
+        }
+        #footer{
+            width: 1110px;
+        }
+        #secimg{
+            width: 185%;
+        }
+        #artimgback{
+            width: 1100px;
+            font-size: 30px;
+        }
+        #artimgback22{
+            width: 1100px;
+            font-size: 30px;
+        }
+        #artimgback33{
+            width: 1100px;
+            font-size: 30px;
+        }
+        a{
+        margin-right: 150px;
+        }
+        .sectioncomentarios{
+            width: 1100px;
+            font-size: 30px;
+        }
+        #estrelaavaliacao{
+        width: 30px;
+        }
+        .colfooter{
+            font-size: 50px;
+        }
+        #ha28{
+            font-size: 25px;
+        }
+        #ha27{
+            font-size: 25px;
+        }
+        #ref01{
+            margin-left: 10px;
+            width: 160px;
+        }
+        span{
+            font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+        #pa02{
+            font-size: 30px;
+        }
+        #reccome{
+            font-size: 30px;
+        }
+        #title{
+            font-size: 40px;
+            margin-left: 450px;
+        }
+        #pa01{
+            font-size: 30px;
+        }
+        #txt2{
+            width: 1000px;
+         margin-left: 250px;
+         font-size: 50px;   
+        }
+        #title{
+            width: 1000px;
+         margin-left: 30px;
+         font-size: 60px; 
+        }
+        p{
+            font-size: 30px;
+            width: 100%;
+            
+        }
+        #not1img{
+            margin-left: 350px;
+            width: 100%;
+        }
+        .spa{
+            margin-left: 200px;
+        }
+        #pa1{
+            width: 100%;
+            margin-left: 350px;
+            font-size: 40px;
+        }
+        #footer{
+            width: 1252px;
+        }
+        .titlem{
+            width: 100%;
+            margin-left: 350px;
+            font-size: 50px;
+        }
+        .img4{
+            margin-left: 350px;
+            width: 100%;
+        }
+        .notp{
+            width: 100%;
+            margin-left: 350px;
+            font-size: 40px;
+        }
+        .pa9{
+            margin-left: 450px;
+            font-size: 50px;  
+        }
+        .pa8{
+            margin-left: 450px;
+            font-size: 50px;  
+        }
+        .pa10{
+            margin-left: 450px;
+            font-size: 50px; 
+        }
+        #video{
+            width: 100%;
+            margin-left: 330px;
+        }
+        .sectioncomentarios{
+            width: 1200px;
+            font-size: 40px;
+        }
+        p{
+            font-size: 40px;
+        }
+        #estrelaavaliacao{
+            width: 60px;
+        }
+      }
