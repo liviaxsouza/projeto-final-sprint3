@@ -206,7 +206,8 @@ nav a {
     text-align: center;
     padding-top: 6%;
     color: white;
-    font-weight: bold
+    font-weight: bold;
+    padding-top: 30px;
   }
   /* Estilos do dropdown */
 .dropdown {
@@ -248,38 +249,38 @@ nav a {
 
     #cinco {
         padding-top: 7%;
-        margin-left: -45px;
-        width: 500px;
+        margin-left: 40px;
+        width: 80%;
     }
 
     #seis {
         padding-top: 7%;
-        margin-left: -45px;
-        width: 500px;
+        margin-left: 40px;
+        width: 80%;
     }
 
     #um {
         padding-top: 7%;
-        margin-left: -45px;
-        width: 500px;
+        margin-left: 40px;
+        width: 80%;
     }
 
     #dois {
         padding-top: 7%;
-        margin-left: -45px;
-        width: 500px;
+        margin-left: 40px;
+        width: 80%;
     }
 
     #tres {
         padding-top: 7%;
-        margin-left: -45px;
-        width: 500px;
+        margin-left: 40px;
+        width: 80%;
     }
 
     #quatro {
         padding-top: 7%;
-        margin-left: -45px;
-        width: 500px;
+        margin-left: 40px;
+        width: 80%;
     }
     header {
         height: 70px;
@@ -310,7 +311,11 @@ nav a {
         height: 100px;
         margin-top: 35px;
     }
+#h2 {
+    text-align: center;
+    
 
+}
     
   }
   
