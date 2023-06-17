@@ -13,10 +13,28 @@ function artigo() {
 
 
 
-    if (inputTitulo = "") {
+    if (inputCategorias == "Esportes" || inputCategorias == "Tecnologia" || inputCategorias == "Saúde e bem estar" || inputCategorias == "Cinema" || inputCategorias == "Vestibular" || inputCategorias == "Música") {
+        if (titulo == '' || data == '' || descricao == '' || autor == '' || new Date(date) < new Date(dateBr) || categoria == '') {
+            if (titulo == '') {
+                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
+            }
+            if (data == '') {
+                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
+            }
+            if (descricao == '') {
+                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
+            }
+            if (autor == '') {
+                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
+            }
+            if (new Date(date) < new Date(dateBr)) {
+                document.getElementById('error').innerHTML = 'Digite uma data válida!';
+            }
+            if (categoria == '') {
+                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
+            }
 
-    }
-     // Verificar se os campos estao preencido antes de permitir adicionar no vetor.
+
 
 
     armazem.push(lista);
