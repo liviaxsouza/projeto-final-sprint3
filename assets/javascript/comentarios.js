@@ -14,7 +14,6 @@ function artigo() {
         if (inputTitulo == '' || inputResumo == '' || inputAutor == '' || inputData == '' || inputCategorias == '') {
             alert("Preencha o(s) campo(s) em branco!")
 
-
             inputTitulo = document.getElementById("titulo").value = "";
             inputResumo = document.getElementById("resumo").value = "";
             inputAutor = document.getElementById("autor").value = "";
