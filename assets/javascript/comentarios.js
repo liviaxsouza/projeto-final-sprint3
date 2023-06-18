@@ -13,7 +13,7 @@ function artigo() {
 
 
 
-        if (titulo == '' || resumo == '' || descricao == '' || autor == '' || new Date(date) < new Date(dateBr) || categoria == '') {
+        if (inputTitulo == '' || inputResumo == '' || inputAutor == '' || inputData == '' || inputCategorias == '') {
             if (titulo == '') {
                 document.getElementById('error').innerHTML = 'Preencha todos os campos !';
             }
