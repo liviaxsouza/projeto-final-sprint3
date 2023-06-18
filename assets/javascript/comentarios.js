@@ -13,8 +13,7 @@ function artigo() {
 
 
 
-    if (inputCategorias == "Esportes" || inputCategorias == "Tecnologia" || inputCategorias == "Saúde e bem estar" || inputCategorias == "Cinema" || inputCategorias == "Vestibular" || inputCategorias == "Música") {
-        if (titulo == '' || data == '' || descricao == '' || autor == '' || new Date(date) < new Date(dateBr) || categoria == '') {
+        if (titulo == '' || resumo == '' || descricao == '' || autor == '' || new Date(date) < new Date(dateBr) || categoria == '') {
             if (titulo == '') {
                 document.getElementById('error').innerHTML = 'Preencha todos os campos !';
             }
@@ -33,8 +32,6 @@ function artigo() {
             if (categoria == '') {
                 document.getElementById('error').innerHTML = 'Preencha todos os campos !';
             }
-
-}
     }
 
     armazem.push(lista);
