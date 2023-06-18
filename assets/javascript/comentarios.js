@@ -84,9 +84,4 @@ function deletar(index) {
     atualizarLista();
 }
 
-// Estiliar os inputs para ficar do tamanho certo
-// Deixar a data no padrao brasil
-
-
 // Se sobrar tempo Verificar se o data que esta sendo adicionado nao é no passado
-// Ao inves do botao, colocar um icone de lixeira
