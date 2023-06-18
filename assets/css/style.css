@@ -455,7 +455,12 @@ input {
     height: 620px;
 }
 
-
+#bannerArtigo {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 80vh;
+}
 
 @media screen and (max-device-width: 900px) and (min-device-height:400px) {
     header {
