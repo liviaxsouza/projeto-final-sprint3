@@ -619,10 +619,10 @@ input {
     }
 
     #bannerArtigo {
-        margin: 0;
+        margin-top: 10%;
         padding: 0;
         width: 100vw;
-        height: 20vh;
+        height: 40vh;
     }
 
     #footer {
