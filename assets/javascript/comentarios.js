@@ -11,28 +11,33 @@ function artigo() {
 
     let lista = [inputTitulo, inputAutor, dateBr, inputCategorias, inputResumo];
 
-
-
         if (inputTitulo == '' || inputResumo == '' || inputAutor == '' || inputData == '' || inputCategorias == '') {
-            if (titulo == '') {
-                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
-            }
-            if (data == '') {
-                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
-            }
-            if (descricao == '') {
-                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
-            }
-            if (autor == '') {
-                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
-            }
-            if (new Date(date) < new Date(dateBr)) {
-                document.getElementById('error').innerHTML = 'Digite uma data válida!';
-            }
-            if (categoria == '') {
-                document.getElementById('error').innerHTML = 'Preencha todos os campos !';
-            }
-    }
+            alert("Preencha o(s) campo(s) em branco!")
+
+
+            inputTitulo = document.getElementById("titulo").value = "";
+            inputResumo = document.getElementById("resumo").value = "";
+            inputAutor = document.getElementById("autor").value = "";
+            inputData = document.getElementById("data").value = "";
+            inputCategorias = document.getElementById("categorias").value = "Escolha uma categoria";
+
+            `
+            <div class = "artigosCard">
+            <div id="infoCard">
+            <h1 id="tituloComentarios" class="pArtigos">${noticia[0]}</h1>
+            <p id="autorComentarios" class="pArtigos">${noticia[1]}</p>
+            <p id="dataComentarios" class="pArtigos">${noticia[2]}</p>
+            <p id="categoriasComentarios" class="pArtigos">${noticia[3]}</p>
+            <p id="Comentarios" class="pArtigos">${noticia[4]}</p>
+            </div>
+            <div id="iconCard">
+            <img id="iconLixeira" onclick="deletar(${i})" src="./../assets/images/lixeira_icon.png" alt="" width="32px">  
+            </div>
+                   
+                    
+            </div>
+            `
+        }
 
     armazem.push(lista);
 
@@ -43,7 +48,7 @@ function artigo() {
     inputResumo = document.getElementById("resumo").value = "";
     inputAutor = document.getElementById("autor").value = "";
     inputData = document.getElementById("data").value = "";
-    inputCategorias = document.getElementById("categorias").value = "Culinária";
+    inputCategorias = document.getElementById("categorias").value = "Escolha uma categoria";
 
 }
 
