@@ -618,6 +618,13 @@ input {
         padding-top: 5%;
     }
 
+    #bannerArtigo {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 20vh;
+    }
+
     #footer {
         height: 1290px;
         width: 100%;
