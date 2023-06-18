@@ -176,7 +176,9 @@ input {
 .buttonSub{
     background-color: rgb(255, 255, 255);
     color: black;
-    width: 150px;
+    width: 100px;
+    border-radius: 5%;
+
 
 }
 
@@ -239,4 +241,8 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
 
 #iconLixeira{
     cursor: pointer;
+}
+
+@media screen and (max-device-width: 900px) and (min-device-height:400px) {
+
 }
