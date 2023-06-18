@@ -344,8 +344,11 @@ p{
         width: 90%;
     }
 
+    
     #footer {
-        height: 125vh;
+        height: 1390px;
+        width: 100%;
+        margin-bottom: 0;
     }
 
     .flex {
