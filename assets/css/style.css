@@ -606,7 +606,7 @@ input {
     }
 
     #footer {
-        height: 1290px;
+        height: 1000vh;
         width: 100%;
     }
 }
