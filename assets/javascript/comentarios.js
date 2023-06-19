@@ -11,14 +11,14 @@ function artigo() {
 
     let lista = [inputTitulo, inputAutor, dateBr, inputCategorias, inputResumo];
 
-        if (inputTitulo == '' || inputResumo == '' || inputAutor == '' || inputData == '' || inputCategorias == '') {
+        if (inputTitulo == '' || inputResumo == '' || inputAutor == '' || inputData == '' || inputCategorias == "Escolha uma categoria") {
             alert("Preencha o(s) campo(s) em branco!")
 
             inputTitulo = document.getElementById("titulo").value = "";
             inputResumo = document.getElementById("resumo").value = "";
             inputAutor = document.getElementById("autor").value = "";
             inputData = document.getElementById("data").value = "";
-            inputCategorias = document.getElementById("categorias").value = "";
+            inputCategorias = document.getElementById("categorias").value = "Escolha uma categoria";
 
             `
             <div class = "artigosCard">
