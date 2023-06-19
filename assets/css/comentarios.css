@@ -256,10 +256,6 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
 	top:1px;
 }
 
-@media screen and (max-device-width: 900px) and (min-device-height:400px) {
-
-}
-
 @media screen and (max-device-width: 900px) and (min-device-height:400px) { 
     header {
         height: 70px;
@@ -289,7 +285,11 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
         display: none;
     }
 
-    #categorias {
+    #categories {
         display: none;
+    }
+
+    #titulo {
+
     }
 }
