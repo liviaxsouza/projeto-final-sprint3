@@ -302,17 +302,20 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
     }
     
     #categorias {
-        width: 8vw;
-        height: 5vh;
+        width: 70vw;
+        height: 3vh;
+        margin-bottom: 5%;
     }
     
     #autor {
-        width: 15vw;
-        height: 4vh;
+        width: 40vw;
+        height: 3vh;
+        margin-bottom: 5%;
     }
     
     #data {
-        width: 10vw;
-        height: 5vh;
+        width: 40vw;
+        height: 3vh;
+        margin-bottom: 5%;
     }
 }
