@@ -290,6 +290,28 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
     }
 
     #titulo {
-
+        width: 50vw;
+        height: 2vh;
+        margin-bottom: 5%;
+    }
+    
+    #resumo {
+        width: 40vw;
+        height: 5vh;
+    }
+    
+    #categorias {
+        width: 8vw;
+        height: 5vh;
+    }
+    
+    #autor {
+        width: 15vw;
+        height: 4vh;
+    }
+    
+    #data {
+        width: 10vw;
+        height: 5vh;
     }
 }
