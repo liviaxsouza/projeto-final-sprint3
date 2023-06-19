@@ -18,7 +18,7 @@ function artigo() {
             inputResumo = document.getElementById("resumo").value = "";
             inputAutor = document.getElementById("autor").value = "";
             inputData = document.getElementById("data").value = "";
-            inputCategorias = document.getElementById("categorias").value = "Escolha uma categoria";
+            inputCategorias = document.getElementById("categorias").value = "";
 
             `
             <div class = "artigosCard">
