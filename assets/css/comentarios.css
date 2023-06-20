@@ -305,6 +305,11 @@ box-shadow: 0px 0px 10px 9px rgba(208,55,250,1);
         height: 3vh;
         margin-bottom: 5%;
     }
+
+    .classcategorias {
+        display: flex;
+        flex-direction: column;
+    } 
     
     #categorias {
         width: 40vw;
